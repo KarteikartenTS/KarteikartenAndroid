@@ -1,4 +1,19 @@
-# Karteikarten-App der TÜV SÜD Akademie
+# 📚 Karteikarten der TÜV SÜD Akademie
+
+## 👉 [Android-App herunterladen](https://github.com/KarteikartenTS/KarteikartenAndroid/releases/tag/v0.1.0-demo)
+
+Auf der Seite die Datei **`TUEV-SUED-Akademie-Karteikarten-0.1.0-demo.apk`** antippen, öffnen und installieren.
+Fragt Android, ob „unbekannte Apps“ installiert werden dürfen: erlauben.
+
+## 👉 [iPhone / iPad: direkt im Browser lernen](https://karteikartents.github.io/KarteikartenInhalte/)
+
+In **Safari** öffnen → **Teilen** → **„Zum Home-Bildschirm“**.
+
+> Demo-Version mit dem Modul **PTI 1**. Die Karten sind unvollständig und dienen nur dem Kennenlernen.
+
+---
+
+## Für Entwickler: Karteikarten-App der TÜV SÜD Akademie
 
 Android-App zum Lernen von Karteikarten für Teilnehmende der TÜV SÜD Akademie. Die App lädt die Karteikarten-Module
 von einer festen Adresse und hält sie automatisch aktuell. Der Lernstand bleibt dabei erhalten.
