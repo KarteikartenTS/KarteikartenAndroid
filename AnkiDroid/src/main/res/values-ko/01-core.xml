@@ -79,7 +79,7 @@
     <string name="menu_disable_voice_playback">목소리 재생 끄기</string>
     <string name="menu_create_backup" maxLength="28">백업 생성</string>
     <string name="new_dynamic_deck">필터링된 덱 만들기</string>
-    <string name="directory_inaccessible">AnkiDroid 폴더에 접근할 수 없습니다</string>
+    <string name="directory_inaccessible">TÜV SÜD Akademie 폴더에 접근할 수 없습니다</string>
     <!--This is shown when AnkiDroid starts up with no storage permissions.
     The user is taken to the "App Info" screen, and needs to click "Permissions" and
     grant AnkiDroid the \'Storage\' permission. This needs to be a fairly generic message as implementations
@@ -119,14 +119,14 @@
     <string name="card_template_editor_save_error">카드 템플릿 변경 사항을 저장할 수 없습니다. %s</string>
     <string name="template_for_current_card_deleted">현재 카드의 카드 유형은 삭제되었습니다.</string>
     <!-- Permissions -->
-    <string name="read_write_permission_label">AnkiDroid 데이터베이스 읽고 쓰기</string>
+    <string name="read_write_permission_label">TÜV SÜD Akademie 데이터베이스 읽고 쓰기</string>
     <string name="read_write_permission_description">기존의 노트, 카드, 노트 유형, 덱에 접근하여 새로운 항목 생성하기</string>
     <!-- Context Menu -->
     <string name="card_browser_context_menu" comment="The value which appears in the system context menu. Note the casing difference">카드 탐색기</string>
     <string name="context_menu_anki_card_label">Anki 카드</string>
     <!-- Sync conflict -->
     <string name="sync_conflict_message_new">컬렉션을 합칠 수 없습니다.\n어떤 컬렉션을 유지하시겠습니까?</string>
-    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">AnkiDroid</string>
+    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">TÜV SÜD Akademie</string>
     <string name="sync_conflict_keep_remote_new" comment="Select AnkiWeb files to keep while syncing">AnkiWeb</string>
     <string name="sync_conflict_remote_confirm_new">AnkiDroid의 컬렉션을 AnkiWeb의 컬렉션으로 덮어쓰시겠습니까?</string>
     <string name="sync_conflict_local_confirm_new">AnkiWeb의 컬렉션을 AnkiDroid의 컬렉션으로 덮어쓰시겠습니까?</string>

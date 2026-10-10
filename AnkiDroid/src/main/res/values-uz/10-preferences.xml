@@ -70,7 +70,7 @@
     <string name="card_browser_font_size" maxLength="41">Karta brauzeri shrift masshtabi</string>
     <string name="card_browser_hide_media" maxLength="41">Karta brauzerda fayl nomlarini koʻrsatish</string>
     <string name="card_browser_hide_media_summary">Audio fayl nomlarini karta brauzeri savol/javob maydonlarida ko\'rsatish</string>
-    <string name="col_path" maxLength="41">AnkiDroid katalogi</string>
+    <string name="col_path" maxLength="41">TÜV SÜD Akademie katalogi</string>
     <string name="fullscreen_review" maxLength="41">Butun ekran rejimi</string>
     <string name="full_screen_off">Oʻchiq</string>
     <string name="full_screen_system">Tizim panellarini yashirish</string>
@@ -174,7 +174,7 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Ekran yoniq qolsin</string>
     <string name="pref_keep_screen_on_summ">Ekran taym-autini oʻchirish</string>
-    <string name="enable_api_title" maxLength="41">AnkiDroid APIʼni yoqish</string>
+    <string name="enable_api_title" maxLength="41">TÜV SÜD Akademie APIʼni yoqish</string>
     <string name="enable_api_summary">Boshqa ilovalarga AnkiDroidʼga ulanishib sizning aralashuvingizsiz maʼlumotlarni oʻqish/yozishga ruxsat berish</string>
     <string name="custom_buttons" maxLength="41">Ilova paneli tugmalari</string>
     <string name="custom_buttons_summary">Ilova panelida qaysi amallar koʻrsatilishini moslashtiring</string>
@@ -185,7 +185,7 @@
     <string name="reset_settings_to_default">Sozlamalarni birlamchiga qaytarish</string>
     <string name="reset">Qayta tiklash</string>
     <string name="thirdparty_apps_title" maxLength="41">Uchinchi tomon API ilovalari</string>
-    <string name="thirdparty_apps_summary">Lugʻatlar, yordamchi dasturlar kabi AnkiDroid APIʼdan foydalanadigan ilovalar roʻyxatini koʻrish.</string>
+    <string name="thirdparty_apps_summary">Lugʻatlar, yordamchi dasturlar kabi TÜV SÜD Akademie APIʼdan foydalanadigan ilovalar roʻyxatini koʻrish.</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Takrorlashlar</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Oldindan koʻrish</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Faqat orqa tarafini koʻrsatish</string>
@@ -237,13 +237,13 @@
     <string name="type_in_answer_focus_summ">Oʻrganish ekranida ‘javobni kiritish’ maydoniga avtomatik tarzda oʻtish</string>
     <!-- About -->
     <string name="open_changelog">Oʻzgarishlar roʻyxatini ochish</string>
-    <string name="pref_cat_about_title" maxLength="41">AnkiDroid haqida</string>
+    <string name="pref_cat_about_title" maxLength="41">TÜV SÜD Akademie haqida</string>
     <string name="contributors_title">Hissa qoʻshganlar</string>
     <string name="about_contributors_description"><![CDATA[Bular bizning ajoyib <a href=\"%1$s\">hissa qoʻshuvchilarimiz</a>. Siz ham dasturlash, tarjima qilish, xayriya qilish va <a href=\"%2$s\">boshqa yoʻllar</a> orqali AnkiDroidʼga yordam berishingiz mumkin!]]></string>
     <string name="license">Litsenziya</string>
     <string name="license_description"><![CDATA[AnkiDroid <a href=\"%1$s\">GPL-3.0</a> va <a href=\"%2$s\">AGPL-3.0</a> litsenziyalari ostida chiqarilgan, dastur kodi <a href=\"%3$s\">GitHubda</a> mavjud]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid, shuningdek, turli ochiq kodli <a href=\"%1$s\">litsenziyalar</a> asosida tarqatilgan uchinchi tomon kutubxonalari va piktogrammalaridan foydalanadi.]]></string>
-    <string name="donate_description"><![CDATA[<a href=\"%1$s\">Xayriya qilish</a> orqali AnkiDroid rivojini qoʻllab-quvvatlashingiz mumkin. Har qanday miqdordagi yordam yuksak qadrlanadi.]]></string>
+    <string name="donate_description"><![CDATA[<a href=\"%1$s\">Xayriya qilish</a> orqali TÜV SÜD Akademie rivojini qoʻllab-quvvatlashingiz mumkin. Har qanday miqdordagi yordam yuksak qadrlanadi.]]></string>
     <!-- Controls -->
     <string name="binding_add_gesture">Qoʻl ishorasini qoʻshish</string>
     <string name="binding_add_key">Tugma qoʻshish</string>
@@ -278,7 +278,7 @@
     <string name="bindings_already_bound">Allaqachon ‘%s’ga bogʻlangan</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Tajribaviy</string>
-    <string name="readtext_deprecation_warn">AnkiDroid boshqa Anki mijozlari bilan mos tushadigan va koʻproq ovozlar va tilni ijro etish uchun takomillashtirishlarni oʻz ichiga olgan yaxshiroq nutq sintezatori mexanizmini taqdim etdi!\n\nImkon qadar tezroq yangilang, chunki bu sozlama tez orada oʻchiriladi.</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie boshqa Anki mijozlari bilan mos tushadigan va koʻproq ovozlar va tilni ijro etish uchun takomillashtirishlarni oʻz ichiga olgan yaxshiroq nutq sintezatori mexanizmini taqdim etdi!\n\nImkon qadar tezroq yangilang, chunki bu sozlama tez orada oʻchiriladi.</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Iltimos, yangi nutq sintezatori formatiga yangilang</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

@@ -176,6 +176,7 @@ import com.ichi2.anki.snackbar.SnackbarBuilder
 import com.ichi2.anki.snackbar.showSnackbar
 import com.ichi2.anki.sync.MeteredSyncPolicy
 import com.ichi2.anki.sync.launchCatchingRequiringOneWaySyncDiscardUndo
+import com.ichi2.anki.tuev.LernAssistent
 import com.ichi2.anki.ui.BottomFadeFrameLayout
 import com.ichi2.anki.ui.ResizablePaneManager
 import com.ichi2.anki.ui.animations.fadeIn
@@ -500,7 +501,9 @@ open class DeckPicker :
 
         // handle the first load: display the app introduction
         // This screen is currently better equipped to handle errors than IntroductionActivity
-        if (!hasShownAppIntro() && AnkiDroidApp.fatalError == null) {
+        // TÜV SÜD: ohne AnkiWeb bietet die Einführung nur "Los geht's" an, daher direkt zur Deckliste.
+        // Die Einführung übernimmt der Lern-Assistent (Clippy) in der Deckliste.
+        if (BuildConfig.ENABLE_ANKIWEB && !hasShownAppIntro() && AnkiDroidApp.fatalError == null) {
             Timber.i("Displaying app intro")
             val appIntro = Intent(this, IntroductionActivity::class.java)
             appIntro.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
@@ -515,6 +518,8 @@ open class DeckPicker :
         }
 
         setViewBinding(binding)
+        // TÜV SÜD: Lern-Assistent beim ersten Start
+        binding.root.post { LernAssistent.showOnFirstLaunch(this) }
         if (!fragmented) {
             // On recreation into this single-pane layout (e.g. a foldable changing form
             // factor), saved state can still hold the split-pane's side panel fragment.
@@ -750,9 +755,11 @@ open class DeckPicker :
                     sync()
                 }
             }
+        pullToSyncWrapper.isEnabled = BuildConfig.ENABLE_ANKIWEB
         // Only allow pull-to-sync when the deck list is scrolled to the top.
         deckPickerBinding.decks.doOnScrolled { _, _ ->
-            pullToSyncWrapper.isEnabled = decksLayoutManager.findFirstCompletelyVisibleItemPosition() == 0
+            pullToSyncWrapper.isEnabled =
+                BuildConfig.ENABLE_ANKIWEB && decksLayoutManager.findFirstCompletelyVisibleItemPosition() == 0
         }
     }
 
@@ -1296,6 +1303,8 @@ open class DeckPicker :
             updateUndoLabelFromState(menu.findItem(R.id.action_undo), undoLabel, undoAvailable)
             updateSyncIconFromState(menu.findItem(R.id.action_sync), this)
         }
+        // TÜV SÜD: kein AnkiWeb-Sync
+        menu.findItem(R.id.action_sync)?.isVisible = BuildConfig.ENABLE_ANKIWEB
         updateDeckRelatedMenuItems(menu)
     }
 
@@ -1369,6 +1378,11 @@ open class DeckPicker :
             return true
         }
         when (item.itemId) {
+            R.id.action_tuev_assistant -> {
+                Timber.i("DeckPicker:: Lern-Assistent geöffnet")
+                LernAssistent.show(this)
+                return true
+            }
             R.id.action_undo -> {
                 Timber.i("DeckPicker:: Undo button pressed")
                 undo()
@@ -2008,6 +2022,11 @@ open class DeckPicker :
      * from the mSyncConflictResolutionListener if the first attempt determines that a full-sync is required.
      */
     override fun sync(conflict: ConflictResolution?) {
+        // TÜV SÜD: AnkiWeb-Sync ist abgeschaltet, Karten kommen über den Updater
+        if (!BuildConfig.ENABLE_ANKIWEB) {
+            pullToSyncWrapper.isRefreshing = false
+            return
+        }
         val hkey = Prefs.hkey
         if (hkey.isNullOrEmpty()) {
             Timber.w("User not logged in")

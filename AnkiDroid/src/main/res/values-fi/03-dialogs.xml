@@ -54,7 +54,7 @@
     <string name="storage_full_title">Tallennustila on täynnä</string>
     <string name="storage_almost_full_title">Tallennustila on melkein täynnä</string>
     <string name="no_space_to_downgrade_title" tools:ignore="UnusedResources">Ei tilaa</string>
-    <string name="no_space_to_downgrade_content" tools:ignore="UnusedResources">AnkiDroid tarvitsee %s vapaata tallennustilaa jatkaakseen. Vapauta tilaa ennen kuin jatkat</string>
+    <string name="no_space_to_downgrade_content" tools:ignore="UnusedResources">TÜV SÜD Akademie tarvitsee %s vapaata tallennustilaa jatkaakseen. Vapauta tilaa ennen kuin jatkat</string>
     <string name="restore_backup_title">Palauta varmuuskopio?</string>
     <string name="restore_backup">Kokoelmasi korvataan vanhemmalla kopiolla. Mahdolliset tallentamattomat tiedot menetetään.</string>
     <string name="restore_backup_choose_another">Valitse toinen</string>
@@ -116,9 +116,9 @@
     <!-- Deck Options -->
     <!-- Database Errors-->
     <string name="database_locked_title">Tietokanta lukittu</string>
-    <string name="database_locked_summary">AnkiDroidin tietokanta on toisen sovelluksen käytössä. Sulje toinen sovellus ja avaa AnkiDroid uudelleen.</string>
+    <string name="database_locked_summary">AnkiDroidin tietokanta on toisen sovelluksen käytössä. Sulje toinen sovellus ja avaa TÜV SÜD Akademie uudelleen.</string>
     <string name="incompatible_database_version_title">Yhteensopimaton tietokannan versio</string>
-    <string name="incompatible_database_version_summary">Tietokanta on edistyneempi versio kuin mitä tämä AnkiDroid-versio voi käyttää. Päivitä AnkiDroid tai siirry vanhempaan tietokantaversioon avataksesi sen\n\nTuettu versio: %1$d\nTietokannan versio: %2$d\n\n\nSeuraavat palautusvaihtoehdot korvaavat nykyisen kokoelmasi, mahdollisesti yhteensopivalla tietokannan versiolla:</string>
+    <string name="incompatible_database_version_summary">Tietokanta on edistyneempi versio kuin mitä tämä AnkiDroid-versio voi käyttää. Päivitä TÜV SÜD Akademie tai siirry vanhempaan tietokantaversioon avataksesi sen\n\nTuettu versio: %1$d\nTietokannan versio: %2$d\n\n\nSeuraavat palautusvaihtoehdot korvaavat nykyisen kokoelmasi, mahdollisesti yhteensopivalla tietokannan versiolla:</string>
     <!-- Deck Picker Background-->
     <string name="background_image_applied">Taustakuva asetettu</string>
     <string name="background_image_removed">Taustakuva poistettu</string>

@@ -126,7 +126,7 @@
         <item quantity="many">%1$d minuty</item>
         <item quantity="other">%1$d minut</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid karta</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">TÜV SÜD Akademie karta</string>
     <string name="note_editor_copy_note" maxLength="28">Kopírovat poznámku</string>
     <string name="card_editor_reposition_card" comment="reposition a card in the new queue" maxLength="28">Změnit pořadí</string>
     <string name="card_editor_reset_card" maxLength="28">Obnovit proces učení</string>
@@ -138,7 +138,7 @@
     <string name="checks_action" maxLength="28">Zkontrolovat</string>
     <string name="unknown_type_field_warning">Zápis odpovědi: neznámé pole %s</string>
     <string name="delete_deck" comment="Message on a progress bar starting a deck is being deleted.">Odstraňuje se balíček&#8230;</string>
-    <string name="info_rate">Ohodnotit AnkiDroid</string>
+    <string name="info_rate">Ohodnotit TÜV SÜD Akademie</string>
     <string name="import_title">Importuje se</string>
     <string name="import_preparing_file">Soubor se připravuje na import&#8230;</string>
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">Přidat</string>
@@ -149,20 +149,20 @@
     <string name="import_error_handle_exception">Nepodařilo se importovat soubor\n\n%s</string>
     <string name="import_error_not_apkg_extension">Název souboru „%s“ nemá příponu .apkg nebo .colpkg</string>
     <string name="import_error_load_imported_database">Náhrady Anki databáze (.anki2) ještě nejsou podporovány. Pokyny k náhradě naleznete v příručce.</string>
-    <string name="import_error_content_provider">Vybraný soubor nelze automaticky importovat pomocí AnkiDroid. V uživatelské příručce naleznete, jak provést ruční import souborů Anki: \n %s</string>
+    <string name="import_error_content_provider">Vybraný soubor nelze automaticky importovat pomocí TÜV SÜD Akademie. V uživatelské příručce naleznete, jak provést ruční import souborů Anki: \n %s</string>
     <string name="import_error_copy_to_cache_title">Nepodařilo se uložit soubor do mezipaměti</string>
     <string name="import_error_copy_to_cache_explanation" comment="The substitution is a list of suggested fixes in bullet point form">Toto je často způsobeno chybou v aplikaci, kterou jste použili pro výběr souboru. Zkuste prosím následující opravy:\n\n%s</string>
-    <string name="import_interrupted">Import přerušen: AnkiDroid se zavřel</string>
+    <string name="import_interrupted">Import přerušen: TÜV SÜD Akademie se zavřel</string>
     <string name="export_ready_title">Export připraven</string>
     <string name="export_send_no_handlers">Nenalezena žádná aplikace pro zpracování apkg. Ukládá se&#8230;</string>
     <string name="export_save_apkg_successful">Anki balíček úspěšně uložen</string>
     <string name="export_save_apkg_unsuccessful">Nepodařilo se uložit Anki balíček</string>
     <string name="export_share_title">Odeslat Anki balíček pomocí</string>
-    <string name="export_email_subject">AnkiDroid exportované kartičky: %s</string>
+    <string name="export_email_subject">TÜV SÜD Akademie exportované kartičky: %s</string>
     <string name="export_email_text"><![CDATA[
         Ahoj!
         <br/><br/>
-        Tohle je balíček kartiček Anki poslaný z AnkiDroid[1].
+        Tohle je balíček kartiček Anki poslaný z TÜV SÜD Akademie[1].
         Zkus ho otevřít pomocí jedné z dostupných distribucí Anki[2] a užij si jednoduché a účinné učení!<br/><br/>
         [1] %1$s<br/>
         [2] %2$s
@@ -205,12 +205,12 @@
     <string name="white_board_image_save_failed">Nepodařilo se uložit obrázek tabule. %s</string>
     <string name="white_board_image_saved">Obrázek tabule uložen do %s</string>
     <string name="title_whiteboard_editor" maxLength="28">Editor tabule</string>
-    <string name="user_is_a_robot">Zjištěn automatizovaný test. Pokud jste člověk, kontaktujte podporu AnkiDroid</string>
+    <string name="user_is_a_robot">Zjištěn automatizovaný test. Pokud jste člověk, kontaktujte podporu TÜV SÜD Akademie</string>
     <!-- JS api -->
-    <string name="api_version_developer_contact">Tato karta používá nepodporované funkce AnkiDroid. Kontaktujte vývojáře %1$s nebo si prohlédněte wiki. %2$s</string>
+    <string name="api_version_developer_contact">Tato karta používá nepodporované funkce TÜV SÜD Akademie. Kontaktujte vývojáře %1$s nebo si prohlédněte wiki. %2$s</string>
     <string name="invalid_json_data">Karta poskytla neplatná data. %s</string>
-    <string name="valid_js_api_version">Neplatná verze AnkiDroid JS API. Kontaktujte vývojáře %s, nebo se podívejte na wiki</string>
-    <string name="update_js_api_version">Je dostupná aktualizace AnkiDroid JS API. Kontaktujte vývojáře %s, nebo se podívejte na wiki</string>
+    <string name="valid_js_api_version">Neplatná verze TÜV SÜD Akademie JS API. Kontaktujte vývojáře %s, nebo se podívejte na wiki</string>
+    <string name="update_js_api_version">Je dostupná aktualizace TÜV SÜD Akademie JS API. Kontaktujte vývojáře %s, nebo se podívejte na wiki</string>
     <string name="reviewer_invalid_api_version_visit_documentation">Zobrazit</string>
     <string name="anki_js_error_code">(Kód chyby: %d)</string>
     <!-- About AnkiDroid screen -->
@@ -221,8 +221,8 @@
     <!-- Deck Picker -->
     <string name="search_decks" maxLength="28">Hledat balíčky</string>
     <string name="ankidroid_init_failed_webview_title">Kritická chyba</string>
-    <string name="ankidroid_init_failed_webview">AnkiDroid spoléhá na systémový WebView, který je nedostupný. K tomu může dojít, jestliže systém instaluje aktualizace. Zkuste to prosím znovu za pár minut.\n\n%s</string>
-    <string name="ankidroid_init_failed_storage">AnkiDroid nemůže přistupovat k úložišti kvůli chybě Androidu.\n\n%s</string>
+    <string name="ankidroid_init_failed_webview">TÜV SÜD Akademie spoléhá na systémový WebView, který je nedostupný. K tomu může dojít, jestliže systém instaluje aktualizace. Zkuste to prosím znovu za pár minut.\n\n%s</string>
+    <string name="ankidroid_init_failed_storage">TÜV SÜD Akademie nemůže přistupovat k úložišti kvůli chybě Androidu.\n\n%s</string>
     <!-- A Menu item to change the Font Size (currently in the Note Editor) -->
     <string name="menu_font_size" maxLength="28">Velikost písma</string>
     <string name="menu_show_toolbar" comment="Checkable item stating whether the note editor toolbar should be shown" maxLength="28">Zobrazit nástrojovou lištu</string>
@@ -244,7 +244,7 @@
     <string name="note_editor_video_too_large">Video je příliš velké, vložte ho prosím ručně</string>
     <string name="note_editor_audio_too_large">Zvukový soubor je příliš velký, vložte ho prosím ručně</string>
     <string name="ankidroid_cannot_open_after_backup_try_again" comment="After an Android backup is restored, AnkiDroid opens and shows this message.         Opening AnkiDroid again will work correctly">Probíhá zálohování Androidu. Zkuste to prosím znovu</string>
-    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Prosím použijte iManager, abyste povolili přidávání zástupců AnkiDroid</string>
+    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Prosím použijte iManager, abyste povolili přidávání zástupců TÜV SÜD Akademie</string>
     <string name="create_shortcut_error_miui" comment="Keep the message as short, as this is shown in a toast. %s is the app name: \'AnkiDroid\'">Allow ‘Home screen shortcuts’ in system settings for %s to add shortcuts</string>
     <string name="create_shortcut_failed" comment="home screen == launcher">Vaše domovská obrazovka neumožňuje AnkiDroidu přidávat zástupce</string>
     <string name="create_shortcut_error">Chyba při přidávání zástupce: %s</string>
@@ -315,7 +315,7 @@
     <string name="intro_get_started" comment="Action to start AnkiDroid for the first time without syncing from AnkiWeb">Začínáme</string>
     <string name="intro_sync_from_ankiweb">Synchronizovat z AnkiWebu</string>
     <!-- IntentHandler -->
-    <string name="app_not_initialized_new">AnkiDroid ještě není inicializován. Otevřete prosím AnkiDroid a zkuste to znovu</string>
+    <string name="app_not_initialized_new">TÜV SÜD Akademie ještě není inicializován. Otevřete prosím TÜV SÜD Akademie a zkuste to znovu</string>
     <!-- Deck Creation -->
     <string name="deck_created">Balíček vytvořen</string>
     <string name="deck_renamed">Balíček přejmenován</string>

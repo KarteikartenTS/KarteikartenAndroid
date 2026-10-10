@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TÜV SÜD Akademie: Texte des Lern-Assistenten. Titel und Text gehören paarweise zusammen (gleicher Index). -->
+<resources>
+    <string name="tuev_assistant_menu" translatable="false">Lern-Assistent</string>
+    <string name="tuev_assistant_back" translatable="false">Zurück</string>
+    <string name="tuev_assistant_next" translatable="false">Weiter</string>
+    <string name="tuev_assistant_done" translatable="false">Fertig</string>
+    <string name="tuev_assistant_close" translatable="false">Tipps schließen</string>
+    <string name="tuev_assistant_name" translatable="false">Lern-Assistentin Karla</string>
+
+    <string-array name="tuev_assistant_titles" translatable="false">
+        <item>Hallo, ich bin Karla!</item>
+        <item>Deine Module</item>
+        <item>Immer aktuell</item>
+        <item>Kapitel aufklappen</item>
+        <item>So lernst du</item>
+        <item>Ehrlich bewerten</item>
+        <item>Die Zahlen rechts</item>
+        <item>Karten durchsuchen</item>
+        <item>Kleiner Tipp</item>
+    </string-array>
+
+    <string-array name="tuev_assistant_texts" translatable="false">
+        <item>Ich bin deine Lernkarte und zeige dir in ein paar Schritten, was diese App kann. Tippe auf „Weiter“.</item>
+        <item>In der Liste siehst du die Karteikarten-Module der TÜV SÜD Akademie, zum Beispiel „PTI 1“.</item>
+        <item>Neue oder korrigierte Karten kommen automatisch auf dein Gerät. Dein Lernstand bleibt dabei erhalten.</item>
+        <item>Viele Module haben Kapitel. Tippe auf den kleinen Pfeil neben einem Modul, um die Kapitel zu sehen.</item>
+        <item>Tippe auf ein Modul oder Kapitel, um zu lernen. Du siehst zuerst die Frage. Überlege dir die Antwort und decke sie dann auf.</item>
+        <item>Nach dem Aufdecken bewertest du dich: „Nochmal“, „Schwer“, „Gut“ oder „Einfach“. Danach plant die App, wann die Karte wiederkommt.</item>
+        <item>Blau sind neue Karten, Rot Karten in der Lernphase, Grün fällige Wiederholungen. Jeden Tag ein bisschen bringt am meisten.</item>
+        <item>Über das Menü ☰ und „Kartenübersicht“ findest du jede Karte per Suchbegriff, praktisch zum Nachschlagen.</item>
+        <item>Du findest mich jederzeit wieder über ⋮ und „Lern-Assistent“. Viel Erfolg beim Lernen!</item>
+    </string-array>
+
+    <style name="TuevAssistantButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:minWidth">72dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:background">@drawable/tuev_assistant_button</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

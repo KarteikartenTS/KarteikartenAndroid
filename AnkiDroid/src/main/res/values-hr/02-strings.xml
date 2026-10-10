@@ -123,7 +123,7 @@
         <item quantity="few">%1$d minute</item>
         <item quantity="other">%1$d minuta</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid kartica</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">TÜV SÜD Akademie kartica</string>
     <string name="note_editor_copy_note" maxLength="28">Kopiraj bilješku</string>
     <string name="card_editor_reposition_card" comment="reposition a card in the new queue" maxLength="28">Promijeni poziciju</string>
     <string name="card_editor_reset_card" maxLength="28">Resetiraj napredak</string>
@@ -135,7 +135,7 @@
     <string name="checks_action" maxLength="28">Provjeri</string>
     <string name="unknown_type_field_warning">Upiši odgovor: nepoznato polje %s</string>
     <string name="delete_deck" comment="Message on a progress bar starting a deck is being deleted.">Brisanje špila&#8230;</string>
-    <string name="info_rate">Ocijeni AnkiDroid</string>
+    <string name="info_rate">Ocijeni TÜV SÜD Akademie</string>
     <string name="import_title">Uvoženje</string>
     <string name="import_preparing_file">Priprema datoteke za uvoz&#8230;</string>
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">Dodaj</string>
@@ -146,16 +146,16 @@
     <string name="import_error_handle_exception">Greška pri uvozu datoteke\n\n%s</string>
     <string name="import_error_not_apkg_extension">Naziv datoteke “%s” nema nastavak .apkg ili .colpkg</string>
     <string name="import_error_load_imported_database">Zamjena Anki baze podataka (.anki2) još nije podržana. Pogledajte priručnik za upute o zamjeni.</string>
-    <string name="import_error_content_provider">Nije se moglo automatski uvesti odabranu datoteku u AnkiDroid. Pogledajte korisnički priručnik da biste vidjeli kako ručno uvesti Anki datoteke: \n%s</string>
+    <string name="import_error_content_provider">Nije se moglo automatski uvesti odabranu datoteku u TÜV SÜD Akademie. Pogledajte korisnički priručnik da biste vidjeli kako ručno uvesti Anki datoteke: \n%s</string>
     <string name="import_error_copy_to_cache_title">Greška pri kopiranju datoteke u predmemoriju</string>
     <string name="import_error_copy_to_cache_explanation" comment="The substitution is a list of suggested fixes in bullet point form">Ovo je obično uzrokovano greškom u aplikaciji kojoj ste odabrali ovu datoteku. Pokušajte sljedeća rješenja:\n\n%s</string>
-    <string name="import_interrupted">Uvoz prekinut: AnkiDroid je zatvoren</string>
+    <string name="import_interrupted">Uvoz prekinut: TÜV SÜD Akademie je zatvoren</string>
     <string name="export_ready_title">Izvoz je spreman</string>
     <string name="export_send_no_handlers">Nijedna aplikacija nije dostupna da rukuje s apkg. Spremanje&#8230;</string>
     <string name="export_save_apkg_successful">Anki paket uspješno spremljen</string>
     <string name="export_save_apkg_unsuccessful">Anki paket nije uspješno spremljen</string>
     <string name="export_share_title">Pošalji Anki paket koristeći</string>
-    <string name="export_email_subject">Izvezene AnkiDroid kartice: %s</string>
+    <string name="export_email_subject">Izvezene TÜV SÜD Akademie kartice: %s</string>
     <string name="export_email_text"><![CDATA[
         Bok!
         <br/><br/>
@@ -202,12 +202,12 @@
     <string name="white_board_image_save_failed">Greška pri spremanju slike ploče. %s</string>
     <string name="white_board_image_saved">Slika ploče spremljena u %s</string>
     <string name="title_whiteboard_editor" maxLength="28">Uređivač ploče</string>
-    <string name="user_is_a_robot">Prepoznat je automatiziran test. Ako ste ljudska osoba, kontaktirajte AnkiDroid podršku</string>
+    <string name="user_is_a_robot">Prepoznat je automatiziran test. Ako ste ljudska osoba, kontaktirajte TÜV SÜD Akademie podršku</string>
     <!-- JS api -->
-    <string name="api_version_developer_contact">Ova kartica koristi nepodržane AnkiDroid značajke. Kontaktirajte razvijatelja %1$s ili pogledajte wiki. %2$s</string>
+    <string name="api_version_developer_contact">Ova kartica koristi nepodržane TÜV SÜD Akademie značajke. Kontaktirajte razvijatelja %1$s ili pogledajte wiki. %2$s</string>
     <string name="invalid_json_data">Kartica je pružila neispravne podatke. %s</string>
-    <string name="valid_js_api_version">Neispravna verzija AnkiDroid JS API. Kontaktirajte razvijatelja %s ili pogledajte wiki</string>
-    <string name="update_js_api_version">Dostupno ažuriranje za AnkiDroid JS API. Kontaktirajte razvijatelja %s, ili pogledajte wiki</string>
+    <string name="valid_js_api_version">Neispravna verzija TÜV SÜD Akademie JS API. Kontaktirajte razvijatelja %s ili pogledajte wiki</string>
+    <string name="update_js_api_version">Dostupno ažuriranje za TÜV SÜD Akademie JS API. Kontaktirajte razvijatelja %s, ili pogledajte wiki</string>
     <string name="reviewer_invalid_api_version_visit_documentation">Pogledaj</string>
     <string name="anki_js_error_code">(Error code: %d)</string>
     <!-- About AnkiDroid screen -->
@@ -219,7 +219,7 @@
     <string name="search_decks" maxLength="28">Pretraži špilove</string>
     <string name="ankidroid_init_failed_webview_title">Fatal error</string>
     <string name="ankidroid_init_failed_webview">Android se oslanja na System WebView koji nije dostupan. Ovo se može dogoditi pri ažuriranju sustava. Pokušajte ponovno za par minuta.\n\n%s</string>
-    <string name="ankidroid_init_failed_storage">AnkiDroid ne može pristupiti prostoru za pohranu zbog greške u Androidu:\n\n%s</string>
+    <string name="ankidroid_init_failed_storage">TÜV SÜD Akademie ne može pristupiti prostoru za pohranu zbog greške u Androidu:\n\n%s</string>
     <!-- A Menu item to change the Font Size (currently in the Note Editor) -->
     <string name="menu_font_size" maxLength="28">Veličina fonta</string>
     <string name="menu_show_toolbar" comment="Checkable item stating whether the note editor toolbar should be shown" maxLength="28">Pokaži alatnu traku</string>
@@ -241,9 +241,9 @@
     <string name="note_editor_video_too_large">Video datoteka je prevelika, umetnite video ručno</string>
     <string name="note_editor_audio_too_large">Zvučna datoteka je prevelika, umetnite zvuk ručno</string>
     <string name="ankidroid_cannot_open_after_backup_try_again" comment="After an Android backup is restored, AnkiDroid opens and shows this message.         Opening AnkiDroid again will work correctly">Sigurnosna kopija Androida u tijeku. Pokušajte ponovno</string>
-    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Možda ćete morati koristiti iManager kako biste dozvolili da AnkiDroid stvori prečace</string>
+    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Možda ćete morati koristiti iManager kako biste dozvolili da TÜV SÜD Akademie stvori prečace</string>
     <string name="create_shortcut_error_miui" comment="Keep the message as short, as this is shown in a toast. %s is the app name: \'AnkiDroid\'">Allow ‘Home screen shortcuts’ in system settings for %s to add shortcuts</string>
-    <string name="create_shortcut_failed" comment="home screen == launcher">Vaš kućni ekran ne dozvoljava da AnkiDroid stvara prečace</string>
+    <string name="create_shortcut_failed" comment="home screen == launcher">Vaš kućni ekran ne dozvoljava da TÜV SÜD Akademie stvara prečace</string>
     <string name="create_shortcut_error">Greška pri dodavanju prečaca: %s</string>
     <string name="note_editor_capitalize" comment="This is for a switch with a checkbox - on: enabled" maxLength="28">Veliko slovo na početku</string>
     <string name="menu_scroll_toolbar" comment="Checkbox stating whether note editor toolbar is scrollable or stacked. Checked: Scroll" maxLength="28">Scroll toolbar</string>
@@ -310,7 +310,7 @@
     <string name="intro_get_started" comment="Action to start AnkiDroid for the first time without syncing from AnkiWeb">Get started</string>
     <string name="intro_sync_from_ankiweb">Sinkroniziraj s AnkiWeba</string>
     <!-- IntentHandler -->
-    <string name="app_not_initialized_new">AnkiDroid još nije inicijaliziran. Otvorite AnkiDroid te zatim pokušajte ponovno</string>
+    <string name="app_not_initialized_new">TÜV SÜD Akademie još nije inicijaliziran. Otvorite TÜV SÜD Akademie te zatim pokušajte ponovno</string>
     <!-- Deck Creation -->
     <string name="deck_created">Špil stvoren</string>
     <string name="deck_renamed">Špil preimenovan</string>

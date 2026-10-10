@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TÜV SÜD Akademie: Markenfarben. PLATZHALTER, Farbwerte mit der Akademie abstimmen. -->
+<resources>
+    <color name="tuev_blue">#FF005CA9</color>
+    <color name="tuev_blue_dark">#FF003F75</color>
+    <color name="tuev_card">#FFFFFFFF</color>
+
+    <!-- Über-Seite: Herkunftshinweis und Quellcode (Pflicht nach GPL-3.0) -->
+    <string name="tuev_link_source" translatable="false">https://github.com/KarteikartenTS/KarteikartenAndroid</string>
+    <string name="tuev_link_ankidroid" translatable="false">https://github.com/ankidroid/Anki-Android</string>
+    <string name="tuev_about_origin_title" translatable="false">Herkunft</string>
+    <string name="tuev_about_origin" translatable="false"><![CDATA[Die Karteikarten-App der TÜV SÜD Akademie basiert auf dem Open-Source-Projekt <a href=\"%1$s\">AnkiDroid</a>. Wir danken allen, die daran mitgewirkt haben. Diese App ist kein offizielles AnkiDroid-Produkt.]]></string>
+    <string name="tuev_license_description" translatable="false"><![CDATA[Diese App steht unter der <a href=\"%1$s\">GPL-3.0</a> und <a href=\"%2$s\">AGPL-3.0</a>. Der Quellcode ist <a href=\"%3$s\">auf GitHub</a> verfügbar.]]></string>
+</resources>

@@ -174,7 +174,7 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">ეკრანი ჩართული დარჩეს</string>
     <string name="pref_keep_screen_on_summ">ეკრანის თვითგამორთვის გამორთვა</string>
-    <string name="enable_api_title" maxLength="41">AnkiDroid API-ს ჩართვა</string>
+    <string name="enable_api_title" maxLength="41">TÜV SÜD Akademie API-ს ჩართვა</string>
     <string name="enable_api_summary">სხვა აპლიკაციებისთვის AnkiDroid-თან დაკავშირებისა და თქვენი ჩარევის გარეშე მონაცემების წაკითხვის / ჩაწერის უფლების მინიჭება</string>
     <string name="custom_buttons" maxLength="41">აპლიკაციის ზოლის ღილაკები</string>
     <string name="custom_buttons_summary">Customize which actions appear in the app bar</string>
@@ -197,7 +197,7 @@
     <string name="exit_via_double_tap_back_summ">To avoid accidentally leaving the study screen or the app</string>
     <!-- Allow all files in media imports -->
     <string name="media_import_allow_all_files" maxLength="41">ყველა ფაილის დაშვება მედიაფაილების იმპორტირებისას</string>
-    <string name="media_import_allow_all_files_summ">შემთხვევებისთვის, როცა AnkiDroid ვერ ცნობს გარკვეულ მედიაფაილებს</string>
+    <string name="media_import_allow_all_files_summ">შემთხვევებისთვის, როცა TÜV SÜD Akademie ვერ ცნობს გარკვეულ მედიაფაილებს</string>
     <!-- Custom sync server settings -->
     <string name="custom_sync_server_title" maxLength="41">სინქრონიზაციის სხვა სერვერი</string>
     <string name="custom_sync_server_summary_none_of_the_two_servers_used" comment="This summary is shown when neither of the two custom sync servers are used,         which is the default.">არაა გამოყენებული</string>
@@ -240,7 +240,7 @@
     <string name="open_changelog">Open changelog</string>
     <string name="pref_cat_about_title" maxLength="41">შესახებ</string>
     <string name="contributors_title">მონაწილეები</string>
-    <string name="about_contributors_description"><![CDATA[These are our awesome <a href=\"%1$s\">contributors</a>. You can help AnkiDroid too by programming, translating, donating and <a href=\"%2$s\">more</a>!]]></string>
+    <string name="about_contributors_description"><![CDATA[These are our awesome <a href=\"%1$s\">contributors</a>. You can help TÜV SÜD Akademie too by programming, translating, donating and <a href=\"%2$s\">more</a>!]]></string>
     <string name="license">ლიცენზია</string>
     <string name="license_description"><![CDATA[AnkiDroid გამოშვებულია <a href=\"%1$s\">GPL-3.0</a> და <a href=\"%2$s\">AGPL-3.0</a> ლიცენზიებით. საწყისი კოდის სანახავად ეწვიეთ <a href=\"%3$s\">GitHub-ს</a>]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid also uses third-party libraries and icons, which are licensed under various open source <a href=\"%1$s\">licenses</a>]]></string>
@@ -279,7 +279,7 @@
     <string name="bindings_already_bound">უკვე მიბმულია „%s-ზე“</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">ექსპერიმენტალური</string>
-    <string name="readtext_deprecation_warn">AnkiDroid has introduced a better TTS mechanism which is compatible with other Anki clients and includes more voices and improvements to language playback!\n\nPlease upgrade as soon as possible, as this setting will be removed soon</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie has introduced a better TTS mechanism which is compatible with other Anki clients and includes more voices and improvements to language playback!\n\nPlease upgrade as soon as possible, as this setting will be removed soon</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Please upgrade to the new text to speech format</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

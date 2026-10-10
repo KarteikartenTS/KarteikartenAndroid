@@ -120,7 +120,7 @@
         <item quantity="one">%1$d წუთში</item>
         <item quantity="other">%1$d წუთში</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid ბარათი</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">TÜV SÜD Akademie ბარათი</string>
     <string name="note_editor_copy_note" maxLength="28">შენიშვნის კოპირება</string>
     <string name="card_editor_reposition_card" comment="reposition a card in the new queue" maxLength="28">გადაადგილება</string>
     <string name="card_editor_reset_card" maxLength="28">პროგრესის წაშლა</string>
@@ -132,7 +132,7 @@
     <string name="checks_action" maxLength="28">შემოწმება</string>
     <string name="unknown_type_field_warning">პასუხის აკრეფა: უცნობი ველი %s</string>
     <string name="delete_deck" comment="Message on a progress bar starting a deck is being deleted.">იშლება დასტა&#8230;</string>
-    <string name="info_rate">შეაფასეთ AnkiDroid</string>
+    <string name="info_rate">შეაფასეთ TÜV SÜD Akademie</string>
     <string name="import_title">იმპორტირება</string>
     <string name="import_preparing_file">ფაილის მომზადება იმპორტისთვის&#8230;</string>
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">დამატება</string>
@@ -146,7 +146,7 @@
     <string name="import_error_content_provider">მონიშნული ფაილის ავტომატური იმპორტირება ვერ მოხერხდა. იხილეთ ინსტრუქცია Anki-ფაილების არაავტომატური იმპორტირების მეთოდისთვის: \n%s</string>
     <string name="import_error_copy_to_cache_title">ფაილის ვერ ჩაიწერა ქეშში</string>
     <string name="import_error_copy_to_cache_explanation" comment="The substitution is a list of suggested fixes in bullet point form">This is often caused by a bug in the app you used to select the file. Please try the following fixes:\n\n%s</string>
-    <string name="import_interrupted">იმპორტი შეჩერდა: AnkiDroid გამოირთო</string>
+    <string name="import_interrupted">იმპორტი შეჩერდა: TÜV SÜD Akademie გამოირთო</string>
     <string name="export_ready_title">ექსპორტი მზადაა</string>
     <string name="export_send_no_handlers">არაა სხვა აპლიკაციები APKG-ფაილების გასახსნელად. ინახება&#8230;</string>
     <string name="export_save_apkg_successful">Anki-პაკეტი წარმატებით შეინახა</string>
@@ -203,8 +203,8 @@
     <!-- JS api -->
     <string name="api_version_developer_contact">ეს ბარათი შეიცავს AnkiDroid-ის ფუნქციებს, რომლებიც არაა მხარდაჭერილი. დაუკავშირდით დეველოპერს %1$s ან იხილეთ ვიკი. %2$s</string>
     <string name="invalid_json_data">ბარათში არასწორი მონაცემებია. %s</string>
-    <string name="valid_js_api_version">AnkiDroid JS API-ს არასწორი ვერსიაა. დაუკავშირდით დეველოპერს %s ან გადახედეთ ვიკის</string>
-    <string name="update_js_api_version">ხელმისაწვდომია AnkiDroid JS API-ს განახლება. დაუკავშირდით დეველოპერს %s ან გადახედეთ ვიკის</string>
+    <string name="valid_js_api_version">TÜV SÜD Akademie JS API-ს არასწორი ვერსიაა. დაუკავშირდით დეველოპერს %s ან გადახედეთ ვიკის</string>
+    <string name="update_js_api_version">ხელმისაწვდომია TÜV SÜD Akademie JS API-ს განახლება. დაუკავშირდით დეველოპერს %s ან გადახედეთ ვიკის</string>
     <string name="reviewer_invalid_api_version_visit_documentation">ხედი</string>
     <string name="anki_js_error_code">(Error code: %d)</string>
     <!-- About AnkiDroid screen -->
@@ -215,8 +215,8 @@
     <!-- Deck Picker -->
     <string name="search_decks" maxLength="28">დასტების მოძიება</string>
     <string name="ankidroid_init_failed_webview_title">Fatal error</string>
-    <string name="ankidroid_init_failed_webview">AnkiDroid relies on the System WebView which is unavailable. This can happen if the system is installing updates. Please try again in a few minutes.\n\n%s</string>
-    <string name="ankidroid_init_failed_storage">AnkiDroid cannot access storage due to an Android error.\n\n%s</string>
+    <string name="ankidroid_init_failed_webview">TÜV SÜD Akademie relies on the System WebView which is unavailable. This can happen if the system is installing updates. Please try again in a few minutes.\n\n%s</string>
+    <string name="ankidroid_init_failed_storage">TÜV SÜD Akademie cannot access storage due to an Android error.\n\n%s</string>
     <!-- A Menu item to change the Font Size (currently in the Note Editor) -->
     <string name="menu_font_size" maxLength="28">ტექსტის ზომა</string>
     <string name="menu_show_toolbar" comment="Checkable item stating whether the note editor toolbar should be shown" maxLength="28">ინსტრუმენტების პანელის ჩვენება</string>
@@ -305,7 +305,7 @@
     <string name="intro_get_started" comment="Action to start AnkiDroid for the first time without syncing from AnkiWeb">Get started</string>
     <string name="intro_sync_from_ankiweb">სინქრონიზაცია AnkiWeb-თან</string>
     <!-- IntentHandler -->
-    <string name="app_not_initialized_new">AnkiDroid is not initialized yet. Please open AnkiDroid and try again</string>
+    <string name="app_not_initialized_new">TÜV SÜD Akademie is not initialized yet. Please open TÜV SÜD Akademie and try again</string>
     <!-- Deck Creation -->
     <string name="deck_created">დასტა შეიქმნა</string>
     <string name="deck_renamed">დასტის სახელი შეიცვალა</string>

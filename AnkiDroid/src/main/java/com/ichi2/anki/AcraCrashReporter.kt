@@ -118,7 +118,7 @@ private object AcraCrashReporter : CrashReporter {
                         .withTitle(application.getString(R.string.feedback_title))
                         .withText(application.getString(R.string.feedback_default_text))
                         .withPositiveButtonText(application.getString(R.string.feedback_report))
-                        .withResIcon(R.drawable.logo_star_144dp)
+                        .withResIcon(R.drawable.tuev_logo_placeholder)
                         .withEnabled(dialogEnabled)
                         .build(),
                     HttpSenderConfigurationBuilder()
@@ -163,7 +163,8 @@ private object AcraCrashReporter : CrashReporter {
         toastText = ToastType.AUTO_TOAST.getToastMessage(application)
 
         // Setup logging and crash reporting
-        if (BuildConfig.DEBUG) {
+        // TÜV SÜD: Absturzberichte komplett aus (keine Daten an fremde Server)
+        if (BuildConfig.DEBUG || !BuildConfig.ENABLE_CRASH_REPORTS) {
             setDebugACRAConfig(application.sharedPrefs())
         } else {
             setProductionACRAConfig(application.sharedPrefs())

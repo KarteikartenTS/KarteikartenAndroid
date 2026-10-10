@@ -72,7 +72,7 @@
     <string name="card_browser_font_size" maxLength="41">Маштаб шрыфту аглядальніка картак</string>
     <string name="card_browser_hide_media" maxLength="41">Адлюстроўваць назвы файлаў</string>
     <string name="card_browser_hide_media_summary">Адлюстроўваць назвы аўдыяфайлаў у аглядальніку картак у палях пытанні/адказы</string>
-    <string name="col_path" maxLength="41">Каталог AnkiDroid</string>
+    <string name="col_path" maxLength="41">Каталог TÜV SÜD Akademie</string>
     <string name="fullscreen_review" maxLength="41">Поўнаэкранны рэжым</string>
     <string name="full_screen_off">Выключаны</string>
     <string name="full_screen_system">Схаваць сістэмную панэль</string>
@@ -179,8 +179,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Не выключаць экран</string>
     <string name="pref_keep_screen_on_summ">Адключыць час чакання экрана</string>
-    <string name="enable_api_title" maxLength="41">Уключыць AnkiDroid API</string>
-    <string name="enable_api_summary">Дазваляе іншым праграмам падключацца да AnkiDroid для чытання / запісу даных без вашага ўдзелу</string>
+    <string name="enable_api_title" maxLength="41">Уключыць TÜV SÜD Akademie API</string>
+    <string name="enable_api_summary">Дазваляе іншым праграмам падключацца да TÜV SÜD Akademie для чытання / запісу даных без вашага ўдзелу</string>
     <string name="custom_buttons" maxLength="41">Панэль кнопак праграмы</string>
     <string name="custom_buttons_summary">Налада кнопак на панэлі праграмы</string>
     <string name="custom_buttons_setting_always_show">Заўсёды паказваць</string>
@@ -190,7 +190,7 @@
     <string name="reset_settings_to_default">Скінуць налады да прадвызначаных</string>
     <string name="reset">Скінуць</string>
     <string name="thirdparty_apps_title" maxLength="41">Праграмныя API іншых распрацоўшчыкаў</string>
-    <string name="thirdparty_apps_summary">Паглядзець спіс праграм, якія выкарыстоўваць API AnkiDroid (слоўнікі, службовыя праграмы і г.д.).</string>
+    <string name="thirdparty_apps_summary">Паглядзець спіс праграм, якія выкарыстоўваць API TÜV SÜD Akademie (слоўнікі, службовыя праграмы і г.д.).</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Перагляды</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Перадпрагляды</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Пераключаць толькі задні бок</string>
@@ -234,9 +234,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">Агульныя</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">Пошук</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Дапамажыце зрабіць AnkiDroid яшчэ лепш!</string>
+    <string name="analytics_dialog_title">Дапамажыце зрабіць TÜV SÜD Akademie яшчэ лепш!</string>
     <string name="analytics_title" maxLength="41">Дзяліцца звесткамі выкарыстання</string>
-    <string name="analytics_summ">Вы можаце зрабіць свой унёсак у AnkiDroid дапамагаючы камандзе распрацоўшчыкаў зразумець, якія функцыі выкарыстоўваюць карыстальнікі праграмы.</string>
+    <string name="analytics_summ">Вы можаце зрабіць свой унёсак у TÜV SÜD Akademie дапамагаючы камандзе распрацоўшчыкаў зразумець, якія функцыі выкарыстоўваюць карыстальнікі праграмы.</string>
     <string name="note_editor_replace_newlines" maxLength="41">Замяняць новыя радкі на HTML</string>
     <string name="note_editor_replace_newlines_summ">Змяняць у рэдактары нататак любыя выпадкі &lt;br&gt; на новыя радкі падчас рэдагавання карткі.</string>
     <string name="type_in_answer_focus" maxLength="41">Пераключацца на поле «Увесці адказ»</string>
@@ -245,7 +245,7 @@
     <string name="open_changelog">Адкрыць спіс змен</string>
     <string name="pref_cat_about_title" maxLength="41">Аб праграме</string>
     <string name="contributors_title">Удзельнікі</string>
-    <string name="about_contributors_description"><![CDATA[Гэта нашы ашаламляльныя <a href=\"%1$s\">ўдзельнікі</a>. Вы таксама можаце дапамагчы AnkiDroid з праграмаваннем, перакладамі, ахвяраваннямі і <a href=\"%2$s\">іншымі рэчамі</a>!]]></string>
+    <string name="about_contributors_description"><![CDATA[Гэта нашы ашаламляльныя <a href=\"%1$s\">ўдзельнікі</a>. Вы таксама можаце дапамагчы TÜV SÜD Akademie з праграмаваннем, перакладамі, ахвяраваннямі і <a href=\"%2$s\">іншымі рэчамі</a>!]]></string>
     <string name="license">Ліцэнзія</string>
     <string name="license_description"><![CDATA[AnkiDroid выпушчаны на ўмовах ліцэнзій <a href=\"%1$s\">GPL-3.0</a> і <a href=\"%2$s\">AGPL-3.0</a>, а таксама зыходным кодам, які даступны <a href=\"%3$s\">на GitHub</a>]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid таксама выкарыстоўвае староннія бібліятэкі і значкі, якія ліцэнзуюцца пад рознымі <a href=\"%1$s\">ліцэнзіямі</a> з адкрытым зыходным кодам]]></string>
@@ -284,7 +284,7 @@
     <string name="bindings_already_bound">Ужо прызначана «%s»</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Эксперыментальныя</string>
-    <string name="readtext_deprecation_warn">У AnkiDroid з\'явіўся палепшаны механізм сінтэзу маўлення (TTS), які сумяшчальны з іншымі кліентамі Anki і ўключае больш галасоў і паляпшэнні пры ўзнаўленні мовы!\n\nЗнайдзіце час для абнаўлення праграмы, бо гэта налада будзе неўзабаве выдалена.</string>
+    <string name="readtext_deprecation_warn">У TÜV SÜD Akademie з\'явіўся палепшаны механізм сінтэзу маўлення (TTS), які сумяшчальны з іншымі кліентамі Anki і ўключае больш галасоў і паляпшэнні пры ўзнаўленні мовы!\n\nЗнайдзіце час для абнаўлення праграмы, бо гэта налада будзе неўзабаве выдалена.</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Абнавіце праграму да новага сінтэзу маўлення</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Дазволіць шаблонам запісваць аўдыя</string>
     <string name="template_is_trying_to_record_audio">Гэты шаблон спрабуе запісаць аўдыя</string>

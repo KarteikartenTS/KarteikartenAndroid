@@ -70,7 +70,7 @@
     <string name="card_browser_font_size" maxLength="41">కార్డ్ బ్రౌజర్ ఫాంట్ స్కేలింగ్</string>
     <string name="card_browser_hide_media" maxLength="41">కార్డ్ బ్రౌజర్‌లో ఫైల్ పేర్లను ప్రదర్శించండి</string>
     <string name="card_browser_hide_media_summary">Display audio filenames in the card browser question/answer fields</string>
-    <string name="col_path" maxLength="41">AnkiDroid డైరెక్టరీ</string>
+    <string name="col_path" maxLength="41">TÜV SÜD Akademie డైరెక్టరీ</string>
     <string name="fullscreen_review" maxLength="41">పూర్తి స్క్రీన్ మోడ్</string>
     <string name="full_screen_off">ఆఫ్</string>
     <string name="full_screen_system">సిస్టమ్ బార్లను దాచు</string>
@@ -174,8 +174,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">స్క్రీన్పై ఉంచండి</string>
     <string name="pref_keep_screen_on_summ">స్క్రీన్ గడువు ముగియడాన్ని నిలిపివేయి</string>
-    <string name="enable_api_title" maxLength="41">AnkiDroid API ని ప్రారంభించండి</string>
-    <string name="enable_api_summary">ఇతర అనువర్తనాలు AnkiDroid కు కనెక్ట్ చేయండి మరియు మీ ప్రమేయం లేకుండా డేటాను చదవడం / వ్రాయడం అనుమతించండి</string>
+    <string name="enable_api_title" maxLength="41">TÜV SÜD Akademie API ని ప్రారంభించండి</string>
+    <string name="enable_api_summary">ఇతర అనువర్తనాలు TÜV SÜD Akademie కు కనెక్ట్ చేయండి మరియు మీ ప్రమేయం లేకుండా డేటాను చదవడం / వ్రాయడం అనుమతించండి</string>
     <string name="custom_buttons" maxLength="41">అనువర్తన పట్టీ బటన్లు</string>
     <string name="custom_buttons_summary">అనువర్తన బార్లో ఏ చర్యలు కనిపిస్తాయో అనుకూలీకరించండి</string>
     <string name="custom_buttons_setting_always_show">ఎల్లప్పుడూ చూపించు</string>
@@ -185,7 +185,7 @@
     <string name="reset_settings_to_default">సెట్టింగులను డిఫాల్ట్‌గా రీసెట్ చేయండి</string>
     <string name="reset">రీసెట్ చేయండి</string>
     <string name="thirdparty_apps_title" maxLength="41">మూడవ పక్షం API యాప్‌లు</string>
-    <string name="thirdparty_apps_summary">డిక్షనరీలు, యుటిలిటీస్ వంటి AnkiDroid APIని ఉపయోగించే అప్లికేషన్‌ల జాబితాను చూడండి.</string>
+    <string name="thirdparty_apps_summary">డిక్షనరీలు, యుటిలిటీస్ వంటి TÜV SÜD Akademie APIని ఉపయోగించే అప్లికేషన్‌ల జాబితాను చూడండి.</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Reviews</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Previews</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Toggle backside only</string>
@@ -244,7 +244,7 @@
     <string name="license_description"><![CDATA[AnkiDroid <a href=\"%1$s\">GPL-3.0</a> మరియు <a href=\"%2$s\">AGPL-3.0</a> లైసెన్స్‌ల సోర్స్ కోడ్ క్రింద విడుదల చేయబడింది <a href =\"%3$s\">GitHub</a>లో అందుబాటులో ఉంది
 ]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid also uses third-party libraries and icons, which are licensed under various open source <a href=\"%1$s\">licenses</a>]]></string>
-    <string name="donate_description"><![CDATA[మీరు <a href=\"%1$s\">దానం చేయడం</a> ద్వారా AnkiDroid అభివృద్ధికి మద్దతు ఇవ్వవచ్చు. ఏదైనా మొత్తం లోతుగా ప్రశంసించబడుతుంది.
+    <string name="donate_description"><![CDATA[మీరు <a href=\"%1$s\">దానం చేయడం</a> ద్వారా TÜV SÜD Akademie అభివృద్ధికి మద్దతు ఇవ్వవచ్చు. ఏదైనా మొత్తం లోతుగా ప్రశంసించబడుతుంది.
 ]]></string>
     <!-- Controls -->
     <string name="binding_add_gesture">సంజ్ఞను జోడించండి</string>
@@ -280,7 +280,7 @@
     <string name="bindings_already_bound">ఇప్పటికే \'%s\'కి కట్టుబడి ఉంది</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">ప్రయోగాత్మకమైనది</string>
-    <string name="readtext_deprecation_warn">AnkiDroid మెరుగైన TTS మెకానిజంను ప్రవేశపెట్టింది, ఇది ఇతర Anki క్లయింట్‌లకు అనుకూలంగా ఉంటుంది మరియు భాష ప్లేబ్యాక్‌కు మరిన్ని వాయిస్‌లు మరియు మెరుగుదలలను కలిగి ఉంది!\n\nదయచేసి వీలైనంత త్వరగా అప్‌గ్రేడ్ చేయండి, ఎందుకంటే ఈ సెట్టింగ్ త్వరలో తీసివేయబడుతుంది.</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie మెరుగైన TTS మెకానిజంను ప్రవేశపెట్టింది, ఇది ఇతర Anki క్లయింట్‌లకు అనుకూలంగా ఉంటుంది మరియు భాష ప్లేబ్యాక్‌కు మరిన్ని వాయిస్‌లు మరియు మెరుగుదలలను కలిగి ఉంది!\n\nదయచేసి వీలైనంత త్వరగా అప్‌గ్రేడ్ చేయండి, ఎందుకంటే ఈ సెట్టింగ్ త్వరలో తీసివేయబడుతుంది.</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">దయచేసి కొత్త వచనాన్ని ప్రసంగ ఆకృతికి అప్‌గ్రేడ్ చేయండి</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

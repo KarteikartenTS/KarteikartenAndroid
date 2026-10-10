@@ -17,7 +17,7 @@ wird nicht vom AnkiDroid-Projekt unterstützt.
 Voraussetzungen: Android SDK, JDK 21 bis 25 (z. B. das JDK aus Android Studio).
 
 ```
-./gradlew :AnkiDroid:assembleFullDebug
+./gradlew :AnkiDroid:assemblePlayDebug
 ```
 
-Die APKs liegen danach unter `AnkiDroid/build/outputs/apk/full/debug/`.
+Die APKs liegen danach unter `AnkiDroid/build/outputs/apk/play/debug/`.

@@ -3,8 +3,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="DuplicateCrowdInStrings">
     <style name="Base.Theme.Light" parent="@style/Theme.Material3.Light.NoActionBar">
         <!-- Android colors -->
-        <item name="colorPrimary">@color/material_light_blue_500</item>
-        <item name="colorPrimaryDark">@color/material_light_blue_700</item>
+        <item name="colorPrimary">@color/tuev_blue</item>
+        <item name="colorPrimaryDark">@color/tuev_blue_dark</item>
         <item name="colorSurface">@color/white</item>
         <item name="colorOnSurface">@color/black</item>
         <item name="colorAccent">@color/material_blue_grey_700</item>
@@ -61,7 +61,7 @@
         <item name="againButtonBackground">@color/material_red_700</item>
         <item name="hardButtonBackground">@color/material_blue_grey_700</item>
         <item name="goodButtonBackground">@color/material_green_500</item>
-        <item name="easyButtonBackground">@color/material_light_blue_500</item>
+        <item name="easyButtonBackground">@color/tuev_blue</item>
         <item name="topBarColor">@color/material_light_blue_100</item>
         <item name="maxTimerColor">@color/material_red_500</item>
         <item name="answerButtonTextColor">@color/white</item>
@@ -74,7 +74,7 @@
         <item name="againTextColor">@color/material_red_900</item>
         <item name="hardTextColor">#B33800</item>
         <item name="goodTextColor">@color/material_green_900</item>
-        <item name="easyTextColor">@color/material_light_blue_900</item>
+        <item name="easyTextColor">@color/tuev_blue_dark</item>
         <item name="againBackgroundColor">#ffFFCDD2</item>
         <item name="hardBackgroundColor">#FFE0B2</item>
         <item name="goodBackgroundColor">#C8E6C9</item>
@@ -112,17 +112,17 @@
         <item name="buttonRippleColor">#595959</item>
         <item name="buttonForegroundColor">#D6D7D7</item>
         <!-- FAB -->
-        <item name="fab_normal">@color/material_light_blue_700</item>
-        <item name="fab_pressed">@color/material_light_blue_900</item>
+        <item name="fab_normal">@color/tuev_blue_dark</item>
+        <item name="fab_pressed">@color/tuev_blue_dark</item>
         <!-- Images -->
-        <item name="navDrawerImage">@drawable/nav_drawer_logo</item>
+        <item name="navDrawerImage">@drawable/tuev_nav_header</item>
         <!-- Dialog styles -->
         <item name="android:listPreferredItemHeight">56dip</item>
         <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
         <item name="android:dialogCornerRadius" tools:targetApi="p">@dimen/dialog_corner_radius</item>
         <item name="textAllCaps">false</item>
         <!--Custom Tabs colors-->
-        <item name="customTabNavBarColor">@color/material_light_blue_500</item>
+        <item name="customTabNavBarColor">@color/tuev_blue</item>
         <item name="popupBackgroundColor">@android:color/white</item>
         <item name="overflowAndPopupMenuIconColor">#9e000000</item>
         <!-- StatusBar -->
@@ -155,7 +155,7 @@
 
         <item name="checkMediaListBackground">@color/material_blue_grey_050</item>
         <item name="checkMediaListForeground">@color/material_grey_700</item>
-        <item name="progressDialogButtonTextColor">@color/material_light_blue_500</item>
+        <item name="progressDialogButtonTextColor">@color/tuev_blue</item>
         <item name="tabStyle">@style/Widget.MaterialComponents.TabLayout</item>
 
         <item name="bottomSheetDialogTheme">@style/ThemeOverlay.App.BottomSheetDialog</item>
@@ -163,7 +163,7 @@
 
         <item name="clozeColor">#0277BD</item>
 
-        <item name="incrementerButtonBackground">@color/material_light_blue_500</item>
+        <item name="incrementerButtonBackground">@color/tuev_blue</item>
 
         <!-- Reminder troubleshooting - check contrast before changing -->
         <item name="reminderTroubleshootingOk">@color/google_green_700</item>

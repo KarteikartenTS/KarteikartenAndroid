@@ -72,7 +72,7 @@
     <string name="card_browser_font_size" maxLength="41">Velikost písma v prohlížení</string>
     <string name="card_browser_hide_media" maxLength="41">Zobrazit názvy souborů v prohlížeči karet</string>
     <string name="card_browser_hide_media_summary">Zobrazit názvy audio souborů v polích otázka/odpověď v prohlížeči karet</string>
-    <string name="col_path" maxLength="41">Adresář AnkiDroid</string>
+    <string name="col_path" maxLength="41">Adresář TÜV SÜD Akademie</string>
     <string name="fullscreen_review" maxLength="41">Celoobrazovkový režim</string>
     <string name="full_screen_off">Vypnout</string>
     <string name="full_screen_system">Skrýt systémové lišty</string>
@@ -178,8 +178,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Nevypínat obrazovku</string>
     <string name="pref_keep_screen_on_summ">Nepovolit zhasnutí displeje</string>
-    <string name="enable_api_title" maxLength="41">Povolit AnkiDroid API</string>
-    <string name="enable_api_summary">Umožnit ostatním aplikacím připojit se k AnkiDroid a číst/zapisovat data bez zásahu uživatele</string>
+    <string name="enable_api_title" maxLength="41">Povolit TÜV SÜD Akademie API</string>
+    <string name="enable_api_summary">Umožnit ostatním aplikacím připojit se k TÜV SÜD Akademie a číst/zapisovat data bez zásahu uživatele</string>
     <string name="custom_buttons" maxLength="41">Tlačítka na panelu aplikace</string>
     <string name="custom_buttons_summary">Přizpůsobit, které akce se objeví v panelu aplikace</string>
     <string name="custom_buttons_setting_always_show">Vždy zobrazovat</string>
@@ -189,7 +189,7 @@
     <string name="reset_settings_to_default">Obnovit výchozí nastavení</string>
     <string name="reset">Obnovit</string>
     <string name="thirdparty_apps_title" maxLength="41">API aplikace třetích stran</string>
-    <string name="thirdparty_apps_summary">Zobrazit seznam aplikací, které používají AnkiDroid API, jako jsou slovníky, nástroje</string>
+    <string name="thirdparty_apps_summary">Zobrazit seznam aplikací, které používají TÜV SÜD Akademie API, jako jsou slovníky, nástroje</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Opakování</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Náhled</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Přepnout pouze zadní stranu</string>
@@ -233,9 +233,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">Obecné</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">Hledat</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Pomozte udělat AnkiDroid lepší!</string>
+    <string name="analytics_dialog_title">Pomozte udělat TÜV SÜD Akademie lepší!</string>
     <string name="analytics_title" maxLength="41">Sdílet používání funkcí</string>
-    <string name="analytics_summ">Můžete přispět do AnkiDroid tím, že pomůžete vývojovému týmu dozvědět se, které funkce lidé používají</string>
+    <string name="analytics_summ">Můžete přispět do TÜV SÜD Akademie tím, že pomůžete vývojovému týmu dozvědět se, které funkce lidé používají</string>
     <string name="note_editor_replace_newlines" maxLength="41">Nahradit nové řádky HTML</string>
     <string name="note_editor_replace_newlines_summ">In the note editor, convert any instances of &lt;br&gt; to newlines when editing a card.</string>
     <string name="type_in_answer_focus" maxLength="41">Vybrat „napište odpověď“</string>
@@ -283,7 +283,7 @@
     <string name="bindings_already_bound">Již přiřazeno k %s</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Experimentální</string>
-    <string name="readtext_deprecation_warn">AnkiDroid zavedl lepší TTS mechanismus, který je kompatibilní s ostatními klienty Anki a obsahuje více hlasů a vylepšení přehrávání!\n\nPřejděte prosím co nejdříve na nové TTS, protože toto nastavení bude brzy odstraněno</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie zavedl lepší TTS mechanismus, který je kompatibilní s ostatními klienty Anki a obsahuje více hlasů a vylepšení přehrávání!\n\nPřejděte prosím co nejdříve na nové TTS, protože toto nastavení bude brzy odstraněno</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Přejděte prosím na nový formát převodu textu na řeč</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

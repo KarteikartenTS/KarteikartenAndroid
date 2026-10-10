@@ -131,7 +131,7 @@
     <string name="context_menu_anki_card_label">Anki-kortti</string>
     <!-- Sync conflict -->
     <string name="sync_conflict_message_new">Kokoelmia ei voi yhdistää.\nMinkä kokoelman haluat säilyttää?</string>
-    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">AnkiDroid</string>
+    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">TÜV SÜD Akademie</string>
     <string name="sync_conflict_keep_remote_new" comment="Select AnkiWeb files to keep while syncing">AnkiWeb</string>
     <string name="sync_conflict_remote_confirm_new">Korvaa AnkiDroidissa sijaitseva kokoelmasi AnkiWebissä sijaitsevalla kokoelmalla?</string>
     <string name="sync_conflict_local_confirm_new">Korvaa AnkiWebissä sijaitseva kokoelmasi AnkiDroidissa sijaitsevalla kokoelmalla?</string>
@@ -140,7 +140,7 @@
     <!-- Generic errors -->
     <string name="error__etc__cannot_write_to_or_create_file">Tiedostoon %s kirjoittaminen tai sen luominen epäonnistui</string>
     <string name="directory_inaccessible_after_uninstall" comment="Dialog title if AnkiDroid can\'t access the collection once the app is installed">Kokoelma ei ole saavutettavissa</string>
-    <string name="directory_inaccessible_after_uninstall_summary" comment="the parameter is the path to the AnkiDroid folder. Typically /storage/emulated/0/AnkiDroid">Emme pääse käsiksi kokoelmiisi sen jälkeen, kun AnkiDroid on poistettu Play Storen käytäntöjen muutoksen vuoksi\n\nTietosi ovat turvassa ja ne voidaan palauttaa. Ne sijaitsevat polussa\n%s\n\n\nPalauta valitsemalla alla olevista vaihtoehdoista:</string>
+    <string name="directory_inaccessible_after_uninstall_summary" comment="the parameter is the path to the AnkiDroid folder. Typically /storage/emulated/0/AnkiDroid">Emme pääse käsiksi kokoelmiisi sen jälkeen, kun TÜV SÜD Akademie on poistettu Play Storen käytäntöjen muutoksen vuoksi\n\nTietosi ovat turvassa ja ne voidaan palauttaa. Ne sijaitsevat polussa\n%s\n\n\nPalauta valitsemalla alla olevista vaihtoehdoista:</string>
     <string name="directory_revoked_after_inactivity" comment="the first parameter is WRITE_EXTERNAL_STORAGE the second parameter is the path to the AnkiDroid folder. Typically /storage/emulated/0/AnkiDroid">Android on poistanut AnkiDroidin %1$s -käyttöoikeuden koska sovellusta ei ole käytetty.\n\nTietosi ovat turvassa ja ne voidaan palauttaa. Sijainti:\n%2$s\n\nValitse vaihtoehto alla palauttaaksesi:</string>
     <string name="restore_data_from_ankiweb">Palauta AnkiWebistä (suositellaan)</string>
     <string name="install_non_play_store_ankidroid_recommended">Palauta kansion käyttöoikeus (suositellaan)</string>
@@ -149,8 +149,8 @@
     <string name="create_new_collection">Luo uusi kokoelma</string>
     <string name="new_unsafe_collection">Uusi kokoelma poistetaan puhelimeltasi jos poistat AnkiDroidin</string>
     <!-- Permissions screen -->
-    <string name="permissions_screen_headline">AnkiDroid tarvitsee joitakin käyttöoikeuksia toimiakseen</string>
-    <string name="permissions_screen_optional_headline" comment="Explains that there are optional permissions that can be granted to AnkiDroid.">AnkiDroid toimii parhaiten näillä käyttöoikeuksilla</string>
+    <string name="permissions_screen_headline">TÜV SÜD Akademie tarvitsee joitakin käyttöoikeuksia toimiakseen</string>
+    <string name="permissions_screen_optional_headline" comment="Explains that there are optional permissions that can be granted to AnkiDroid.">TÜV SÜD Akademie toimii parhaiten näillä käyttöoikeuksilla</string>
     <string name="storage_access_title">Tallennustilan käyttöoikeus</string>
     <string name="storage_access_summary">Tallentaa kokoelmasi turvalliseen paikkaan, jota ei poisteta, jos sovellus poistetaan.</string>
     <string name="all_files_access_title" comment="Name of the “All files access” permission from Android 10 and after. See [android.permission.MANAGE_EXTERNAL_STORAGE] on https://developer.android.com/training/data-storage/manage-all-files for context.">Pääsy kaikkiin tiedostoihin</string>

@@ -118,7 +118,7 @@
     <plurals name="in_minutes">
         <item quantity="other">%1$d분</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid 카드</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">TÜV SÜD Akademie 카드</string>
     <string name="note_editor_copy_note" maxLength="28">노트 복사하기</string>
     <string name="card_editor_reposition_card" comment="reposition a card in the new queue" maxLength="28">위치 변경</string>
     <string name="card_editor_reset_card" maxLength="28">학습 진도 재설정</string>
@@ -130,7 +130,7 @@
     <string name="checks_action" maxLength="28">확인</string>
     <string name="unknown_type_field_warning">정답 입력: 알 수 없는 필드 %s</string>
     <string name="delete_deck" comment="Message on a progress bar starting a deck is being deleted.">카드 묶음 삭제 중&#8230;\n 잠시만 기다리세요.</string>
-    <string name="info_rate">AnkiDroid 평가하기</string>
+    <string name="info_rate">TÜV SÜD Akademie 평가하기</string>
     <string name="import_title">가져오는 중</string>
     <string name="import_preparing_file">불러올 파일 준비 중&#8230;</string>
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">추가</string>
@@ -197,12 +197,12 @@
     <string name="white_board_image_save_failed">화이트보드 이미지 저장에 실패했습니다. %s</string>
     <string name="white_board_image_saved">%s에 화이트보드 이미지가 저장되었습니다.</string>
     <string name="title_whiteboard_editor" maxLength="28">화이트보드 편집기</string>
-    <string name="user_is_a_robot">자동 테스트를 감지했습니다. 만약 당신이 로봇이 아니라면 AnkiDroid 지원부에 연락하세요.</string>
+    <string name="user_is_a_robot">자동 테스트를 감지했습니다. 만약 당신이 로봇이 아니라면 TÜV SÜD Akademie 지원부에 연락하세요.</string>
     <!-- JS api -->
     <string name="api_version_developer_contact">이 카드는 AnkiDroid에서 지원하지 않은 기능을 이용합니다. 개발자에게 문의하거나(%1$s), wiki를 확인해주십시오. %2$s</string>
     <string name="invalid_json_data">잘못된 카드 데이터입니다. %s</string>
-    <string name="valid_js_api_version">잘못된 AnkiDroid JS API 버전. 개발자에게 문의하거나(%s), wiki를 확인해주십시오.</string>
-    <string name="update_js_api_version">AnkiDroid JS API를 업데이트할 수 있습니다. 개발자에게 문의하거나(%s), wiki를 확인해주십시오.</string>
+    <string name="valid_js_api_version">잘못된 TÜV SÜD Akademie JS API 버전. 개발자에게 문의하거나(%s), wiki를 확인해주십시오.</string>
+    <string name="update_js_api_version">TÜV SÜD Akademie JS API를 업데이트할 수 있습니다. 개발자에게 문의하거나(%s), wiki를 확인해주십시오.</string>
     <string name="reviewer_invalid_api_version_visit_documentation">보기</string>
     <string name="anki_js_error_code">(오류 코드: %d)</string>
     <!-- About AnkiDroid screen -->
@@ -236,9 +236,9 @@
     <string name="note_editor_video_too_large">영상 파일이 너무 큽니다. 수동으로 넣어 주세요.</string>
     <string name="note_editor_audio_too_large">오디오 파일이 너무 큽니다. 수동으로 넣어 주세요.</string>
     <string name="ankidroid_cannot_open_after_backup_try_again" comment="After an Android backup is restored, AnkiDroid opens and shows this message.         Opening AnkiDroid again will work correctly">Android 백업중입니다. 다시 시도하십시오.</string>
-    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">AnkiDroid 바로가기를 추가하려면 iManager가 필요할 수 있습니다.</string>
+    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">TÜV SÜD Akademie 바로가기를 추가하려면 iManager가 필요할 수 있습니다.</string>
     <string name="create_shortcut_error_miui" comment="Keep the message as short, as this is shown in a toast. %s is the app name: \'AnkiDroid\'">%s의 \'홈 화면 바로가기\'를 시스템 설정에서 허용하세요</string>
-    <string name="create_shortcut_failed" comment="home screen == launcher">홈 화면에 AnkiDroid 바로 가기를 추가할 수 없습니다.</string>
+    <string name="create_shortcut_failed" comment="home screen == launcher">홈 화면에 TÜV SÜD Akademie 바로 가기를 추가할 수 없습니다.</string>
     <string name="create_shortcut_error">바로가기 생성 오류: %s</string>
     <string name="note_editor_capitalize" comment="This is for a switch with a checkbox - on: enabled" maxLength="28">대문자로 시작</string>
     <string name="menu_scroll_toolbar" comment="Checkbox stating whether note editor toolbar is scrollable or stacked. Checked: Scroll" maxLength="28">도구 모음 스크롤</string>

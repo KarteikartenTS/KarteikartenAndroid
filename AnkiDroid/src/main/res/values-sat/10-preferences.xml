@@ -70,7 +70,7 @@
     <string name="card_browser_font_size" maxLength="41">ᱠᱟᱰ ᱵᱨᱟᱣᱡᱚᱨ ᱪᱤᱠᱤ ᱢᱟᱯ</string>
     <string name="card_browser_hide_media" maxLength="41">ᱠᱟᱰ ᱵᱨᱟᱣᱡᱚᱨ ᱨᱮ ᱨᱮᱫᱼᱧᱩᱛᱩᱢ ᱫᱮᱠᱷᱟᱣᱢᱮ</string>
     <string name="card_browser_hide_media_summary">Display audio filenames in the card browser question/answer fields</string>
-    <string name="col_path" maxLength="41">AnkiDroid ᱩᱫᱩᱜ ᱯᱩᱛᱷᱤ</string>
+    <string name="col_path" maxLength="41">TÜV SÜD Akademie ᱩᱫᱩᱜ ᱯᱩᱛᱷᱤ</string>
     <string name="fullscreen_review" maxLength="41">ᱯᱩᱨᱟᱹᱥᱠᱨᱤᱱ ᱢᱚᱰ</string>
     <string name="full_screen_off">ᱵᱚᱸᱫ</string>
     <string name="full_screen_system">ᱥᱭᱥᱴᱚᱢ ᱵᱟᱨ ᱩᱠᱩᱭ ᱢᱮ</string>
@@ -174,8 +174,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Keep screen on</string>
     <string name="pref_keep_screen_on_summ">Disable screen timeout</string>
-    <string name="enable_api_title" maxLength="41">Enable AnkiDroid API</string>
-    <string name="enable_api_summary">Let other apps connect to AnkiDroid and read / write data without your intervention</string>
+    <string name="enable_api_title" maxLength="41">Enable TÜV SÜD Akademie API</string>
+    <string name="enable_api_summary">Let other apps connect to TÜV SÜD Akademie and read / write data without your intervention</string>
     <string name="custom_buttons" maxLength="41">App bar buttons</string>
     <string name="custom_buttons_summary">Customize which actions appear in the app bar</string>
     <string name="custom_buttons_setting_always_show">Always show</string>
@@ -185,7 +185,7 @@
     <string name="reset_settings_to_default">ᱥᱩᱯᱚᱨᱴᱤᱝ ᱠᱚ ᱰᱤᱯᱷᱚᱞᱴ ᱨᱮ ᱨᱤᱥᱮᱴ ᱢᱮ</string>
     <string name="reset">ᱨᱤᱥᱮᱴ</string>
     <string name="thirdparty_apps_title" maxLength="41">Third-party API apps</string>
-    <string name="thirdparty_apps_summary">See a list of applications which make use of the AnkiDroid API such as dictionaries, utilities.</string>
+    <string name="thirdparty_apps_summary">See a list of applications which make use of the TÜV SÜD Akademie API such as dictionaries, utilities.</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Reviews</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Previews</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Toggle backside only</string>
@@ -229,9 +229,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">ᱥᱟᱱᱟᱢ</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">ᱥᱮᱸᱫᱽᱨᱟ</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Help make AnkiDroid better!</string>
+    <string name="analytics_dialog_title">Help make TÜV SÜD Akademie better!</string>
     <string name="analytics_title" maxLength="41">Share feature usage</string>
-    <string name="analytics_summ">You can contribute to AnkiDroid by helping the development team see which features people use</string>
+    <string name="analytics_summ">You can contribute to TÜV SÜD Akademie by helping the development team see which features people use</string>
     <string name="note_editor_replace_newlines" maxLength="41">HTML ᱥᱟᱞᱟᱜ ᱱᱟᱣᱟᱞᱟᱹᱭᱤᱱ ᱵᱚᱫᱚᱞ ᱢᱮ</string>
     <string name="note_editor_replace_newlines_summ">In the note editor, convert any instances of &lt;br&gt; to newlines when editing a card.</string>
     <string name="type_in_answer_focus" maxLength="41">ᱫᱷᱮᱭᱟᱱ ᱮᱢ ᱢᱮ \'ᱞᱟᱹᱱᱟᱹᱭ ᱴᱟᱤᱯ ᱨᱮ\'</string>
@@ -240,11 +240,11 @@
     <string name="open_changelog">ᱯᱩᱨᱤᱵᱚᱨᱛᱚᱱ ᱞᱳᱜᱽ ᱡᱷᱤᱡᱽ ᱢᱮ</string>
     <string name="pref_cat_about_title" maxLength="41">ᱤᱫᱤ ᱠᱟᱛᱮ</string>
     <string name="contributors_title">ᱥᱮᱞᱮᱫᱤᱭᱟᱹ ᱠᱚ</string>
-    <string name="about_contributors_description"><![CDATA[ᱱᱩᱠᱩ ᱠᱚᱫᱚ ᱟᱵᱚᱣᱟᱜ ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ <a href=\"%1$s\">contributors</a> ᱠᱟᱱᱟ ᱠᱚ ᱾ ᱟᱢ ᱯᱨᱳᱜᱨᱟᱢ, ᱛᱚᱨᱡᱚᱢᱟ, ᱥᱚᱦᱚᱫ ᱟᱨ <a href=\"%2$s\">ᱦᱚᱲᱟᱜ</a> ᱠᱟᱛᱮ ᱟᱢᱦᱚᱸ AnkiDroid ᱜᱚᱲᱚ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ!]]></string>
+    <string name="about_contributors_description"><![CDATA[ᱱᱩᱠᱩ ᱠᱚᱫᱚ ᱟᱵᱚᱣᱟᱜ ᱟᱹᱰᱤ ᱱᱟᱯᱟᱭ <a href=\"%1$s\">contributors</a> ᱠᱟᱱᱟ ᱠᱚ ᱾ ᱟᱢ ᱯᱨᱳᱜᱨᱟᱢ, ᱛᱚᱨᱡᱚᱢᱟ, ᱥᱚᱦᱚᱫ ᱟᱨ <a href=\"%2$s\">ᱦᱚᱲᱟᱜ</a> ᱠᱟᱛᱮ ᱟᱢᱦᱚᱸ TÜV SÜD Akademie ᱜᱚᱲᱚ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ!]]></string>
     <string name="license">ᱞᱟᱭᱥᱮᱱᱥ</string>
     <string name="license_description"><![CDATA[AnkiDroid ᱫᱚ <a href=\"%1$s\">GPL-3.0</a> ᱟᱨ <a href=\"%2$s\">AGPL-3.0</a> ᱞᱟᱭᱥᱮᱱᱥ ᱟᱛᱮ ᱨᱤᱞᱤᱡᱽ ᱟᱠᱟᱱᱟ, ᱡᱟᱦᱟᱸ ᱨᱮᱱᱟᱜ ᱥᱳᱨᱥ ᱠᱚᱰ <a href=\"%3$s\">GitHub</a> ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid also uses third-party libraries and icons, which are licensed under various open source <a href=\"%1$s\">licenses</a>]]></string>
-    <string name="donate_description"><![CDATA[ᱟᱢ <a href=\"%1$s\">ᱫᱚᱦᱚᱭ ᱠᱟᱛᱮ</a> AnkiDroid ᱨᱮᱭᱟᱜ ᱩᱛᱷᱱᱟᱹᱣ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾ ᱡᱟᱦᱟᱸᱱ ᱮᱢᱟᱱ ᱜᱮ ᱟᱹᱰᱤ ᱟᱞᱜᱟ ᱛᱮᱭ ᱢᱟᱱᱟᱣ ᱵᱟᱛᱟᱣᱜᱼᱟ ᱾]]></string>
+    <string name="donate_description"><![CDATA[ᱟᱢ <a href=\"%1$s\">ᱫᱚᱦᱚᱭ ᱠᱟᱛᱮ</a> TÜV SÜD Akademie ᱨᱮᱭᱟᱜ ᱩᱛᱷᱱᱟᱹᱣ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾ ᱡᱟᱦᱟᱸᱱ ᱮᱢᱟᱱ ᱜᱮ ᱟᱹᱰᱤ ᱟᱞᱜᱟ ᱛᱮᱭ ᱢᱟᱱᱟᱣ ᱵᱟᱛᱟᱣᱜᱼᱟ ᱾]]></string>
     <!-- Controls -->
     <string name="binding_add_gesture">ᱤᱥᱟᱨᱟ ᱡᱚᱲᱟᱣ</string>
     <string name="binding_add_key">Key ᱡᱚᱲᱟᱣ</string>
@@ -279,7 +279,7 @@
     <string name="bindings_already_bound">ᱢᱟᱬᱟᱝ ᱠᱷᱚᱱ ᱛᱚᱞ %s</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">ᱮᱠᱥᱯᱮᱨᱤᱢᱮᱱᱴᱟᱞ</string>
-    <string name="readtext_deprecation_warn">AnkiDroid has introduced a better TTS mechanism which is compatible with other Anki clients and includes more voices and improvements to language playback!\n\nPlease upgrade as soon as possible, as this setting will be removed soon</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie has introduced a better TTS mechanism which is compatible with other Anki clients and includes more voices and improvements to language playback!\n\nPlease upgrade as soon as possible, as this setting will be removed soon</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">ᱱᱟᱶᱟ ᱚᱞ ᱛᱮ ᱨᱚᱲ ᱞᱤᱥᱴᱤ ᱛᱮ ᱩᱛᱱᱟᱹᱣ ᱢᱮ</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

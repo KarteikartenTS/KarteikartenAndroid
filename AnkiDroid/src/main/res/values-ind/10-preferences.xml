@@ -69,7 +69,7 @@
     <string name="card_browser_font_size" maxLength="41">Skala fon penelusur kartu</string>
     <string name="card_browser_hide_media" maxLength="41">Tampilkan nama berkas di penelusur kartu</string>
     <string name="card_browser_hide_media_summary">Display audio filenames in the card browser question/answer fields</string>
-    <string name="col_path" maxLength="41">Direktori AnkiDroid</string>
+    <string name="col_path" maxLength="41">Direktori TÜV SÜD Akademie</string>
     <string name="fullscreen_review" maxLength="41">Mode layar penuh</string>
     <string name="full_screen_off">Mati</string>
     <string name="full_screen_system">Sembunyikan bar sistem</string>
@@ -173,8 +173,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Layar tetap menyala</string>
     <string name="pref_keep_screen_on_summ">Nonaktifkan batas waktu layar mati</string>
-    <string name="enable_api_title" maxLength="41">Aktifkan API AnkiDroid</string>
-    <string name="enable_api_summary">Biarkan aplikasi lain terhubung ke AnkiDroid dan baca / tulis data tanpa intervensi Anda</string>
+    <string name="enable_api_title" maxLength="41">Aktifkan API TÜV SÜD Akademie</string>
+    <string name="enable_api_summary">Biarkan aplikasi lain terhubung ke TÜV SÜD Akademie dan baca / tulis data tanpa intervensi Anda</string>
     <string name="custom_buttons" maxLength="41">Bar tombol aplikasi</string>
     <string name="custom_buttons_summary">Sesuaikan tindakan mana yang muncul di bar aplikasi</string>
     <string name="custom_buttons_setting_always_show">Selalu tampilkan</string>
@@ -184,7 +184,7 @@
     <string name="reset_settings_to_default">Atur ulang pengaturan ke bawaan</string>
     <string name="reset">Atur ulang</string>
     <string name="thirdparty_apps_title" maxLength="41">Aplikasi API pihak ketiga</string>
-    <string name="thirdparty_apps_summary">Lihat daftar aplikasi yang menggunakan API AnkiDroid seperti kamus, alat.</string>
+    <string name="thirdparty_apps_summary">Lihat daftar aplikasi yang menggunakan API TÜV SÜD Akademie seperti kamus, alat.</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Reviews</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Previews</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Toggle backside only</string>
@@ -227,9 +227,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">Umum</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">Cari</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Bantu AnkiDroid jadi lebih baik!</string>
+    <string name="analytics_dialog_title">Bantu TÜV SÜD Akademie jadi lebih baik!</string>
     <string name="analytics_title" maxLength="41">Bagikan data penggunaan fitur</string>
-    <string name="analytics_summ">Kamu bisa berkontribusi ke AnkiDroid dengan membantu tim pengembangan tahu fitur mana yang orang gunakan</string>
+    <string name="analytics_summ">Kamu bisa berkontribusi ke TÜV SÜD Akademie dengan membantu tim pengembangan tahu fitur mana yang orang gunakan</string>
     <string name="note_editor_replace_newlines" maxLength="41">Ganti newlines dengan HTML</string>
     <string name="note_editor_replace_newlines_summ">In the note editor, convert any instances of &lt;br&gt; to newlines when editing a card.</string>
     <string name="type_in_answer_focus" maxLength="41">Fokus \'ketik di jawaban\'</string>
@@ -238,7 +238,7 @@
     <string name="open_changelog">Open changelog</string>
     <string name="pref_cat_about_title" maxLength="41">Tentang</string>
     <string name="contributors_title">Kontributor</string>
-    <string name="about_contributors_description"><![CDATA[Ini merupakan <a href=\"%1$s\">para kontributor</a> keren kami. Anda dapat membantu AnkiDroid juga dengan pemrograman, penerjemahan, donasi, dan <a href=\"%2$s\">masih banyak lagi</a>!]]></string>
+    <string name="about_contributors_description"><![CDATA[Ini merupakan <a href=\"%1$s\">para kontributor</a> keren kami. Anda dapat membantu TÜV SÜD Akademie juga dengan pemrograman, penerjemahan, donasi, dan <a href=\"%2$s\">masih banyak lagi</a>!]]></string>
     <string name="license">Lisensi</string>
     <string name="license_description"><![CDATA[AnkiDroid dirilis di bawah lisensi <a href=\"%1$s\">GPL-3.0</a> dan <a href=\"%2$s\">AGPL-3.0</a>, dengan kode sumbernya tersedia <a href=\"%3$s\">di GitHub</a>]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid also uses third-party libraries and icons, which are licensed under various open source <a href=\"%1$s\">licenses</a>]]></string>
@@ -277,7 +277,7 @@
     <string name="bindings_already_bound">Sudah terikat ke \'%s\'</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Eksperimental</string>
-    <string name="readtext_deprecation_warn">AnkiDroid telah memperkenalkan mekanisme teks ke suara yang lebih baik, kompatibel dengan klien Anki lainnya, dan memiliki lebih banyak suara dan peningkatan pada pemutaran bahasa!\n\nSilakan meningkatkan segera mungkin karena pengaturan ini akan dihapus dalam waktu mendatang</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie telah memperkenalkan mekanisme teks ke suara yang lebih baik, kompatibel dengan klien Anki lainnya, dan memiliki lebih banyak suara dan peningkatan pada pemutaran bahasa!\n\nSilakan meningkatkan segera mungkin karena pengaturan ini akan dihapus dalam waktu mendatang</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Silakan meningkatkan ke format teks ke suara baru</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

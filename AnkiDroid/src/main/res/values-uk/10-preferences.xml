@@ -72,7 +72,7 @@
     <string name="card_browser_font_size" maxLength="41">Масштаб шрифту в переглядачі карток</string>
     <string name="card_browser_hide_media" maxLength="41">Показувати назви файлів у переглядачі карток</string>
     <string name="card_browser_hide_media_summary">Показувати назви аудіофайлів в переглядачі карток в полях запитання/відповіді</string>
-    <string name="col_path" maxLength="41">Шлях до папки AnkiDroid</string>
+    <string name="col_path" maxLength="41">Шлях до папки TÜV SÜD Akademie</string>
     <string name="fullscreen_review" maxLength="41">Повноекранний режим</string>
     <string name="full_screen_off">Вимкнено</string>
     <string name="full_screen_system">Приховати системну панель</string>
@@ -179,8 +179,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Не вимикати екран</string>
     <string name="pref_keep_screen_on_summ">Відключити таймаут екрану</string>
-    <string name="enable_api_title" maxLength="41">Увімкнути AnkiDroid API</string>
-    <string name="enable_api_summary">Дозволяє іншим додаткам підключатися до AnkiDroid і читати / записувати дані без вашого втручання</string>
+    <string name="enable_api_title" maxLength="41">Увімкнути TÜV SÜD Akademie API</string>
+    <string name="enable_api_summary">Дозволяє іншим додаткам підключатися до TÜV SÜD Akademie і читати / записувати дані без вашого втручання</string>
     <string name="custom_buttons" maxLength="41">Панель кнопок додатку</string>
     <string name="custom_buttons_summary">Налаштування кнопок на панелі додатку</string>
     <string name="custom_buttons_setting_always_show">Завжди показувати</string>
@@ -190,7 +190,7 @@
     <string name="reset_settings_to_default">Скидання налаштувань до стандартних</string>
     <string name="reset">Скинути</string>
     <string name="thirdparty_apps_title" maxLength="41">API додатки сторонніх виробників</string>
-    <string name="thirdparty_apps_summary">Переглянути список програм, які використовують API AnkiDroid, наприклад словники, утиліти</string>
+    <string name="thirdparty_apps_summary">Переглянути список програм, які використовують API TÜV SÜD Akademie, наприклад словники, утиліти</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Повторення</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Попередні перегляди</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Лише задня сторона</string>
@@ -233,9 +233,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">Загальні</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">Пошук</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Допоможіть зробити AnkiDroid кращим!</string>
+    <string name="analytics_dialog_title">Допоможіть зробити TÜV SÜD Akademie кращим!</string>
     <string name="analytics_title" maxLength="41">Поділитися інформацією про використання функцій</string>
-    <string name="analytics_summ">Ви можете зробити свій внесок до AnkiDroid, допомагаючи команді розробників побачити, які функції використовують люди</string>
+    <string name="analytics_summ">Ви можете зробити свій внесок до TÜV SÜD Akademie, допомагаючи команді розробників побачити, які функції використовують люди</string>
     <string name="note_editor_replace_newlines" maxLength="41">Замінити нові рядки на HTML</string>
     <string name="note_editor_replace_newlines_summ">In the note editor, convert any instances of &lt;br&gt; to newlines when editing a card.</string>
     <string name="type_in_answer_focus" maxLength="41">Переходити до «Ввести відповідь»</string>
@@ -244,7 +244,7 @@
     <string name="open_changelog">Відкрити список змін</string>
     <string name="pref_cat_about_title" maxLength="41">Про програму</string>
     <string name="contributors_title">Учасники</string>
-    <string name="about_contributors_description"><![CDATA[Це наші дивовижні <a href=\"%1$s\">учасники</a>. Ви теж можете допомогти AnkiDroid шляхом програмування, перекладу, пожертвуванням і <a href=\"%2$s\">іншим</a>!]]></string>
+    <string name="about_contributors_description"><![CDATA[Це наші дивовижні <a href=\"%1$s\">учасники</a>. Ви теж можете допомогти TÜV SÜD Akademie шляхом програмування, перекладу, пожертвуванням і <a href=\"%2$s\">іншим</a>!]]></string>
     <string name="license">Ліцензія</string>
     <string name="license_description"><![CDATA[AnkiDroid випущений під <a href=\"%1$s\">GPL-3.0</a> і <a href=\"%2$s\">AGPL-3.0</a> ліцензією, з вихідним кодом доступним <a href=\"%3$s\">на GitHub</a>]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid також використовує сторонні бібліотеки та іконки, які ліцензуються під різними <a href=\"%1$s\">ліцензіями</a> з відкритим кодом]]></string>
@@ -283,7 +283,7 @@
     <string name="bindings_already_bound">Вже прив\'язано до %s</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Експериментальні</string>
-    <string name="readtext_deprecation_warn">AnkiDroid створив кращий механізм TTS, який сумісний з іншими клієнтами Anki і містить більше голосів та покращене відтворення мови!\n\nБудь ласка, оновіть програму якомога швидше, оскільки це налаштування буде незабаром видалено.</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie створив кращий механізм TTS, який сумісний з іншими клієнтами Anki і містить більше голосів та покращене відтворення мови!\n\nБудь ласка, оновіть програму якомога швидше, оскільки це налаштування буде незабаром видалено.</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Оновіться, будь ласка, до нового формату синтезу мовлення</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

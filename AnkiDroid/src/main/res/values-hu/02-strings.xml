@@ -120,7 +120,7 @@
         <item quantity="one">%1$d perc</item>
         <item quantity="other">%1$d perc</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid Kártya</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">TÜV SÜD Akademie Kártya</string>
     <string name="note_editor_copy_note" maxLength="28">Jegyzet másolása</string>
     <string name="card_editor_reposition_card" comment="reposition a card in the new queue" maxLength="28">Áthelyezés</string>
     <string name="card_editor_reset_card" maxLength="28">Folyamat visszaállítása</string>
@@ -132,7 +132,7 @@
     <string name="checks_action" maxLength="28">Ellenőrzés</string>
     <string name="unknown_type_field_warning">Válaszadás: ismeretlen mező: %s</string>
     <string name="delete_deck" comment="Message on a progress bar starting a deck is being deleted.">Pakli törlése&#8230;\nKérlek, várj&#8230;</string>
-    <string name="info_rate">AnkiDroid értékelése</string>
+    <string name="info_rate">TÜV SÜD Akademie értékelése</string>
     <string name="import_title">Importálás</string>
     <string name="import_preparing_file">Fájl előkészítése importálásra</string>
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">Hozzáadás</string>
@@ -152,11 +152,11 @@
     <string name="export_save_apkg_successful">Az Anki csomag sikeresen mentve</string>
     <string name="export_save_apkg_unsuccessful">Az Anki csomag mentése sikertelen</string>
     <string name="export_share_title">Anki csomag küldése</string>
-    <string name="export_email_subject">AnkiDroid exportált index kártyák: %s</string>
+    <string name="export_email_subject">TÜV SÜD Akademie exportált index kártyák: %s</string>
     <string name="export_email_text"><![CDATA[
         Hi!
         <br/><br/>
-        Ez egy Anki pakli amit az AnkiDroid[1] küldött.
+        Ez egy Anki pakli amit az TÜV SÜD Akademie[1] küldött.
         Próbáld megnyitni valamelyik Anki disztribúcióval[2] és élvezd a könnyű és hatékony tanulást!<br/><br/>
         [1] %1$s<br/>
         [2] %2$s
@@ -199,12 +199,12 @@
     <string name="white_board_image_save_failed">A rajztábla kép mentése sikertelen. %s</string>
     <string name="white_board_image_saved">A rajztábla kép elmentve %s-ba</string>
     <string name="title_whiteboard_editor" maxLength="28">Rajztábla szerkesztő</string>
-    <string name="user_is_a_robot">Felismert automatizált teszt. Ha te csináltad, vedd fel a kapcsolatot az AnkiDroid támogatással</string>
+    <string name="user_is_a_robot">Felismert automatizált teszt. Ha te csináltad, vedd fel a kapcsolatot az TÜV SÜD Akademie támogatással</string>
     <!-- JS api -->
-    <string name="api_version_developer_contact">Ez a kártya nem támogatott AnkiDroid funkciókat használ. Vegye fel a kapcsolatot a fejlesztővel %1$s, vagy tekintse meg a wikit . %2$s</string>
+    <string name="api_version_developer_contact">Ez a kártya nem támogatott TÜV SÜD Akademie funkciókat használ. Vegye fel a kapcsolatot a fejlesztővel %1$s, vagy tekintse meg a wikit . %2$s</string>
     <string name="invalid_json_data">Érvénytelen adatok a kártyákon. %s</string>
-    <string name="valid_js_api_version">Érvénytelen AnkiDroid JS API verzió. Vegye fel a kapcsolatot a fejlesztővel  %s, vagy a wiki megtekintése</string>
-    <string name="update_js_api_version">Az AnkiDroid JS API frissítés elérhető. Vegye fel a kapcsolatot a fejlesztővel %s, vagy a wiki megtekintése</string>
+    <string name="valid_js_api_version">Érvénytelen TÜV SÜD Akademie JS API verzió. Vegye fel a kapcsolatot a fejlesztővel  %s, vagy a wiki megtekintése</string>
+    <string name="update_js_api_version">Az TÜV SÜD Akademie JS API frissítés elérhető. Vegye fel a kapcsolatot a fejlesztővel %s, vagy a wiki megtekintése</string>
     <string name="reviewer_invalid_api_version_visit_documentation">Nézet</string>
     <string name="anki_js_error_code">(Error code: %d)</string>
     <!-- About AnkiDroid screen -->
@@ -215,8 +215,8 @@
     <!-- Deck Picker -->
     <string name="search_decks" maxLength="28">Keresés a paklikban</string>
     <string name="ankidroid_init_failed_webview_title">Fatal error</string>
-    <string name="ankidroid_init_failed_webview">Az AnkiDroid a System WebView-t használja, ami jelenleg nem elérhető. Lehetséges, hogy a rendszer frissítéseket telepít. Próbáld újra pár perc múlva.\n\n%s</string>
-    <string name="ankidroid_init_failed_storage">AnkiDroid cannot access storage due to an Android error.\n\n%s</string>
+    <string name="ankidroid_init_failed_webview">Az TÜV SÜD Akademie a System WebView-t használja, ami jelenleg nem elérhető. Lehetséges, hogy a rendszer frissítéseket telepít. Próbáld újra pár perc múlva.\n\n%s</string>
+    <string name="ankidroid_init_failed_storage">TÜV SÜD Akademie cannot access storage due to an Android error.\n\n%s</string>
     <!-- A Menu item to change the Font Size (currently in the Note Editor) -->
     <string name="menu_font_size" maxLength="28">Betűméret</string>
     <string name="menu_show_toolbar" comment="Checkable item stating whether the note editor toolbar should be shown" maxLength="28">Eszköztár megjelenítése</string>
@@ -240,7 +240,7 @@
     <string name="ankidroid_cannot_open_after_backup_try_again" comment="After an Android backup is restored, AnkiDroid opens and shows this message.         Opening AnkiDroid again will work correctly">Android backup in progress. Please try again</string>
     <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Az AnkiDroidban rövidítések használatához szükséges lehet az iManager használata</string>
     <string name="create_shortcut_error_miui" comment="Keep the message as short, as this is shown in a toast. %s is the app name: \'AnkiDroid\'">Allow ‘Home screen shortcuts’ in system settings for %s to add shortcuts</string>
-    <string name="create_shortcut_failed" comment="home screen == launcher">A Kezdőképernyőd nem engedi AnkiDroid közvetlen elérések elhelyezését</string>
+    <string name="create_shortcut_failed" comment="home screen == launcher">A Kezdőképernyőd nem engedi TÜV SÜD Akademie közvetlen elérések elhelyezését</string>
     <string name="create_shortcut_error">Hiba történt a közvetlen elérés hozzáadásakor: %s</string>
     <string name="note_editor_capitalize" comment="This is for a switch with a checkbox - on: enabled" maxLength="28">Mondatok nagybetűsre</string>
     <string name="menu_scroll_toolbar" comment="Checkbox stating whether note editor toolbar is scrollable or stacked. Checked: Scroll" maxLength="28">görgethető eszközsor</string>
@@ -306,7 +306,7 @@
     <string name="intro_get_started" comment="Action to start AnkiDroid for the first time without syncing from AnkiWeb">Get started</string>
     <string name="intro_sync_from_ankiweb">Szinkronizálás AnkiWebről</string>
     <!-- IntentHandler -->
-    <string name="app_not_initialized_new">AnkiDroid is not initialized yet. Please open AnkiDroid and try again</string>
+    <string name="app_not_initialized_new">TÜV SÜD Akademie is not initialized yet. Please open TÜV SÜD Akademie and try again</string>
     <!-- Deck Creation -->
     <string name="deck_created">Pakli elkészült</string>
     <string name="deck_renamed">Pakli átnevezve</string>

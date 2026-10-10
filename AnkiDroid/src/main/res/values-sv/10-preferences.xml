@@ -70,7 +70,7 @@
     <string name="card_browser_font_size" maxLength="41">Typsnittsstorlek i kortbläddrare</string>
     <string name="card_browser_hide_media" maxLength="41">Visa filnamn i kortbläddraren</string>
     <string name="card_browser_hide_media_summary">Display audio filenames in the card browser question/answer fields</string>
-    <string name="col_path" maxLength="41">AnkiDroid sökväg</string>
+    <string name="col_path" maxLength="41">TÜV SÜD Akademie sökväg</string>
     <string name="fullscreen_review" maxLength="41">Fullskärmsläge</string>
     <string name="full_screen_off">Av</string>
     <string name="full_screen_system">Dölj systemets statusfält</string>
@@ -174,8 +174,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Håll skärm på</string>
     <string name="pref_keep_screen_on_summ">Inaktivera skärmtimeout</string>
-    <string name="enable_api_title" maxLength="41">Aktivera AnkiDroid API</string>
-    <string name="enable_api_summary">Låt andra appar ansluta till AnkiDroid och läsa / skriva data utan din medverkan</string>
+    <string name="enable_api_title" maxLength="41">Aktivera TÜV SÜD Akademie API</string>
+    <string name="enable_api_summary">Låt andra appar ansluta till TÜV SÜD Akademie och läsa / skriva data utan din medverkan</string>
     <string name="custom_buttons" maxLength="41">Appfältets knappar</string>
     <string name="custom_buttons_summary">Anpassa vilka funktioner som syns i appfältet</string>
     <string name="custom_buttons_setting_always_show">Visa alltid</string>
@@ -229,9 +229,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">Allmänt</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">Sök</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Hjälp till att förbättra AnkiDroid!</string>
+    <string name="analytics_dialog_title">Hjälp till att förbättra TÜV SÜD Akademie!</string>
     <string name="analytics_title" maxLength="41">Dela funktionsanvändning</string>
-    <string name="analytics_summ">Du kan bidra till AnkiDroid genom att hjälpa utvecklingslaget se vilka funktioner som används</string>
+    <string name="analytics_summ">Du kan bidra till TÜV SÜD Akademie genom att hjälpa utvecklingslaget se vilka funktioner som används</string>
     <string name="note_editor_replace_newlines" maxLength="41">Ersätt radbrytningar med HTML</string>
     <string name="note_editor_replace_newlines_summ">In the note editor, convert any instances of &lt;br&gt; to newlines when editing a card.</string>
     <string name="type_in_answer_focus" maxLength="41">Fokusera på ‘skriv in svar’</string>
@@ -240,7 +240,7 @@
     <string name="open_changelog">Öppna ändringslogg</string>
     <string name="pref_cat_about_title" maxLength="41">Om appen</string>
     <string name="contributors_title">Bidragsgivare</string>
-    <string name="about_contributors_description"><![CDATA[Dessa är våra fantastiska <a href=\"%1$s\">bidragsgivare</a>. Du kan också hjälpa AnkiDroid genom att utveckla, översätta, donera och <a href=\"%2$s\">mer</a>!]]></string>
+    <string name="about_contributors_description"><![CDATA[Dessa är våra fantastiska <a href=\"%1$s\">bidragsgivare</a>. Du kan också hjälpa TÜV SÜD Akademie genom att utveckla, översätta, donera och <a href=\"%2$s\">mer</a>!]]></string>
     <string name="license">Programvarulicens</string>
     <string name="license_description"><![CDATA[AnkiDroid släpps under licenserna <a href=\"%1$s\">GPL-3.0</a> och <a href=\"%2$s\">AGPL-3.0</a>, med källkoden tillgänglig <a href=\"%3$s\">på GitHub</a>]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid also uses third-party libraries and icons, which are licensed under various open source <a href=\"%1$s\">licenses</a>]]></string>
@@ -279,7 +279,7 @@
     <string name="bindings_already_bound">Redan bunden till %s</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Experimentellt</string>
-    <string name="readtext_deprecation_warn">AnkiDroid har infört en bättre TTS-funktion som är kompatibel med andra Anki-klienter och innehåller fler röster och förbättringar av språkuppspelning!\n\nVänligen uppgradera så snart som möjligt, eftersom denna inställning snart kommer att tas bort</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie har infört en bättre TTS-funktion som är kompatibel med andra Anki-klienter och innehåller fler röster och förbättringar av språkuppspelning!\n\nVänligen uppgradera så snart som möjligt, eftersom denna inställning snart kommer att tas bort</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Vänligen uppgradera till det nya text-till-tal-formatet</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

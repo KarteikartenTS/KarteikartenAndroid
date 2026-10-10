@@ -132,7 +132,7 @@
     <string name="checks_action" maxLength="28">Kontroli</string>
     <string name="unknown_type_field_warning">Enigu respondon: nekonata kampo %s</string>
     <string name="delete_deck" comment="Message on a progress bar starting a deck is being deleted.">Forigado de kartaro&#8230;</string>
-    <string name="info_rate">Taksi AnkiDroid</string>
+    <string name="info_rate">Taksi TÜV SÜD Akademie</string>
     <string name="import_title">Enporti</string>
     <string name="import_preparing_file">Preparado de dosiero por enporti&#8230;</string>
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">Aldoni</string>
@@ -143,7 +143,7 @@
     <string name="import_error_handle_exception">Malsukcesis enporti la dosieron\n\n%s</string>
     <string name="import_error_not_apkg_extension">Dosiernomo \"%s\" ne finiĝas per .apkg aŭ .colpkg</string>
     <string name="import_error_load_imported_database">Anstataŭigoj de Anki-datumbazo (.anki2) ankoraŭ ne estas subtenataj. Legu la manlibron por instrukciojn pri anstataŭigo.</string>
-    <string name="import_error_content_provider">Ne povas aŭtomate enporti elektitan dosieron al AnkiDroid. Bonvolu legi la manlibron de uzanto por sciiĝi pri kiel permane enporti Anki-dosierojn:\n%s</string>
+    <string name="import_error_content_provider">Ne povas aŭtomate enporti elektitan dosieron al TÜV SÜD Akademie. Bonvolu legi la manlibron de uzanto por sciiĝi pri kiel permane enporti Anki-dosierojn:\n%s</string>
     <string name="import_error_copy_to_cache_title">Malsukcesis kaŝmemori dosieron</string>
     <string name="import_error_copy_to_cache_explanation" comment="The substitution is a list of suggested fixes in bullet point form">Tio ĉi ofte okazas pro eraro en la aplikaĵo uzita por elekti la dosieron. Provu la jenon por solvi la problemon:\n\n%s</string>
     <string name="import_interrupted">Enportado interrompita</string>
@@ -152,7 +152,7 @@
     <string name="export_save_apkg_successful">Sukcese konservis Anki-pakaĵon</string>
     <string name="export_save_apkg_unsuccessful">Malsukcesis konservi Anki-pakaĵon</string>
     <string name="export_share_title">Sendi Anki-pakaĵon per</string>
-    <string name="export_email_subject">AnkiDroid elportis lernkartojn: %s</string>
+    <string name="export_email_subject">TÜV SÜD Akademie elportis lernkartojn: %s</string>
     <string name="export_email_text"><![CDATA[
         Saluton!
         <br/><br/>
@@ -199,12 +199,12 @@
     <string name="white_board_image_save_failed">Malsukcesis konservi bildon de skribtabulo. %s</string>
     <string name="white_board_image_saved">Konservis bildon de skribtabulo al %s</string>
     <string name="title_whiteboard_editor" maxLength="28">Redaktilo de skribtabulo</string>
-    <string name="user_is_a_robot">Eltrovita aŭtomata testo. Se vi estas homo, kontaktu la helpteamon AnkiDroid</string>
+    <string name="user_is_a_robot">Eltrovita aŭtomata testo. Se vi estas homo, kontaktu la helpteamon TÜV SÜD Akademie</string>
     <!-- JS api -->
-    <string name="api_version_developer_contact">Tiu ĉi karto uzas eblaĵojn nesubtenatajn de AnkiDroid. Kontaktu la programiston %1$s aŭ legu la vikion. %2$s</string>
+    <string name="api_version_developer_contact">Tiu ĉi karto uzas eblaĵojn nesubtenatajn de TÜV SÜD Akademie. Kontaktu la programiston %1$s aŭ legu la vikion. %2$s</string>
     <string name="invalid_json_data">Karto liveris malĝustajn datumojn. %s</string>
-    <string name="valid_js_api_version">Malĝusta versio de JS API AnkiDroid. Kontaktu la programiston %s aŭ legu la vikion</string>
-    <string name="update_js_api_version">Disponebla ĝisdatigo por JS API AnkiDroid. Kontaktu la programiston %s aŭ legu la vikion</string>
+    <string name="valid_js_api_version">Malĝusta versio de JS API TÜV SÜD Akademie. Kontaktu la programiston %s aŭ legu la vikion</string>
+    <string name="update_js_api_version">Disponebla ĝisdatigo por JS API TÜV SÜD Akademie. Kontaktu la programiston %s aŭ legu la vikion</string>
     <string name="reviewer_invalid_api_version_visit_documentation">Montri</string>
     <string name="anki_js_error_code">(Error code: %d)</string>
     <!-- About AnkiDroid screen -->
@@ -215,8 +215,8 @@
     <!-- Deck Picker -->
     <string name="search_decks" maxLength="28">Serĉi en kartaroj</string>
     <string name="ankidroid_init_failed_webview_title">Fatal error</string>
-    <string name="ankidroid_init_failed_webview">AnkiDroid necesas la komponanton System WebView, kiu estas nedisponebla. Tio ĉi povas okazi, kiam la operaciumo instalas ĝisdatigojn. Reprovu post kelkaj minutoj.\n\n%s</string>
-    <string name="ankidroid_init_failed_storage">AnkiDroid ne povas aliri konservejon pro eraro rilata al Android.\n\n%s</string>
+    <string name="ankidroid_init_failed_webview">TÜV SÜD Akademie necesas la komponanton System WebView, kiu estas nedisponebla. Tio ĉi povas okazi, kiam la operaciumo instalas ĝisdatigojn. Reprovu post kelkaj minutoj.\n\n%s</string>
+    <string name="ankidroid_init_failed_storage">TÜV SÜD Akademie ne povas aliri konservejon pro eraro rilata al Android.\n\n%s</string>
     <!-- A Menu item to change the Font Size (currently in the Note Editor) -->
     <string name="menu_font_size" maxLength="28">Grando de tiparo</string>
     <string name="menu_show_toolbar" comment="Checkable item stating whether the note editor toolbar should be shown" maxLength="28">Montri ilarstrion</string>
@@ -238,9 +238,9 @@
     <string name="note_editor_video_too_large">La filmeto estas tro granda enmetu la filmeton permane</string>
     <string name="note_editor_audio_too_large">La sonaĵo estas tro granda, enmetu la sonaĵon permane</string>
     <string name="ankidroid_cannot_open_after_backup_try_again" comment="After an Android backup is restored, AnkiDroid opens and shows this message.         Opening AnkiDroid again will work correctly">Restarigado de Android-sekurkopio. Reprovu</string>
-    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Uzu iManager por permesi al AnkiDroid krei fenestraĵojn</string>
+    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Uzu iManager por permesi al TÜV SÜD Akademie krei fenestraĵojn</string>
     <string name="create_shortcut_error_miui" comment="Keep the message as short, as this is shown in a toast. %s is the app name: \'AnkiDroid\'">Allow ‘Home screen shortcuts’ in system settings for %s to add shortcuts</string>
-    <string name="create_shortcut_failed" comment="home screen == launcher">Via aplikaĵlanĉilo ne permesas al AnkiDroid krei fenestraĵojn</string>
+    <string name="create_shortcut_failed" comment="home screen == launcher">Via aplikaĵlanĉilo ne permesas al TÜV SÜD Akademie krei fenestraĵojn</string>
     <string name="create_shortcut_error">Eraro dum krei fenestraĵon: %s</string>
     <string name="note_editor_capitalize" comment="This is for a switch with a checkbox - on: enabled" maxLength="28">Majuskligi frazojn</string>
     <string name="menu_scroll_toolbar" comment="Checkbox stating whether note editor toolbar is scrollable or stacked. Checked: Scroll" maxLength="28">Rulumi en ilarstrio</string>
@@ -305,7 +305,7 @@
     <string name="intro_get_started" comment="Action to start AnkiDroid for the first time without syncing from AnkiWeb">Get started</string>
     <string name="intro_sync_from_ankiweb">Samtempigi kun AnkiWeb</string>
     <!-- IntentHandler -->
-    <string name="app_not_initialized_new">AnkiDroid ankoraŭ ne estas preta. Remalfermu AnkiDroid kaj reprovu</string>
+    <string name="app_not_initialized_new">TÜV SÜD Akademie ankoraŭ ne estas preta. Remalfermu TÜV SÜD Akademie kaj reprovu</string>
     <!-- Deck Creation -->
     <string name="deck_created">Kartaro kreita</string>
     <string name="deck_renamed">Kartaro renomigita</string>

@@ -70,7 +70,7 @@
     <string name="card_browser_font_size" maxLength="41">تغییر اندازه فونت مرورگر کارت</string>
     <string name="card_browser_hide_media" maxLength="41">نمایش نام فایل‌ها در مرورگر کارت</string>
     <string name="card_browser_hide_media_summary">نمایش نام فایل‌های صوتی در کادر‌های پرسش/پاسخ مرورگر کارت</string>
-    <string name="col_path" maxLength="41">مسیر قرارگیری AnkiDroid</string>
+    <string name="col_path" maxLength="41">مسیر قرارگیری TÜV SÜD Akademie</string>
     <string name="fullscreen_review" maxLength="41">حالت تمام‌صفحه</string>
     <string name="full_screen_off">خاموش</string>
     <string name="full_screen_system">پنهان کردن نوار سیستم</string>
@@ -175,7 +175,7 @@
     <string name="pref_keep_screen_on" maxLength="41">روشن نگه‌داشتن صفحه</string>
     <string name="pref_keep_screen_on_summ">غیرفعال کردن زمان خاموش شدن صفحه نمایش</string>
     <string name="enable_api_title" maxLength="41">فعال کردن API این برنامه</string>
-    <string name="enable_api_summary">به دیگر برنامه ها اجازه دهید تا با AnkiDroid ارتباط داشته و اطلاعات را بدون دخالت شما بخوانند و بنویسند</string>
+    <string name="enable_api_summary">به دیگر برنامه ها اجازه دهید تا با TÜV SÜD Akademie ارتباط داشته و اطلاعات را بدون دخالت شما بخوانند و بنویسند</string>
     <string name="custom_buttons" maxLength="41">دکمه های نوار برنامه</string>
     <string name="custom_buttons_summary">اینکه چه عملى در نوار برنامه ظاهر شود را شخصی سازی کنید</string>
     <string name="custom_buttons_setting_always_show">همیشه نمایش بده</string>
@@ -228,7 +228,7 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">عمومی</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">جستجو</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">کمک به بهتر شدن AnkiDroid!</string>
+    <string name="analytics_dialog_title">کمک به بهتر شدن TÜV SÜD Akademie!</string>
     <string name="analytics_title" maxLength="41">به اشتراک گذاشتن ویژگی‌های مورد استفاده</string>
     <string name="analytics_summ">شما می‌توانید با به اشتراک گذاشتن ویژگی‌هایی که مردم استفاده می کنند به توسعۀ آنکی‌دروید کمک کنید</string>
     <string name="note_editor_replace_newlines" maxLength="41">خط های جدید را با HTML جایگذین کن</string>

@@ -70,7 +70,7 @@
     <string name="card_browser_font_size" maxLength="41">Pagsusulat ng font ng browser ng card</string>
     <string name="card_browser_hide_media" maxLength="41">Ipakita ang filename sa card browser</string>
     <string name="card_browser_hide_media_summary">Display audio filenames in the card browser question/answer fields</string>
-    <string name="col_path" maxLength="41">AnkiDroid directory</string>
+    <string name="col_path" maxLength="41">TÜV SÜD Akademie directory</string>
     <string name="fullscreen_review" maxLength="41">Fullscreen mode</string>
     <string name="full_screen_off">Off</string>
     <string name="full_screen_system">Itago ang mga bar ng system</string>
@@ -175,8 +175,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Panatilihin ang screen</string>
     <string name="pref_keep_screen_on_summ">Huwag paganahin ang timeout ng screen</string>
-    <string name="enable_api_title" maxLength="41">Enable AnkiDroid API</string>
-    <string name="enable_api_summary">Hayaan ang iba pang apps na kumonekta sa AnkiDroid at basahin / isulat ang data nang wala ang iyong interbensyon</string>
+    <string name="enable_api_title" maxLength="41">Enable TÜV SÜD Akademie API</string>
+    <string name="enable_api_summary">Hayaan ang iba pang apps na kumonekta sa TÜV SÜD Akademie at basahin / isulat ang data nang wala ang iyong interbensyon</string>
     <string name="custom_buttons" maxLength="41">Mga pindutan ng bar ng app</string>
     <string name="custom_buttons_summary">Ipasadya kung aling mga pagkilos ang lilitaw sa app bar</string>
     <string name="custom_buttons_setting_always_show">Laging ipakita</string>
@@ -186,7 +186,7 @@
     <string name="reset_settings_to_default">Ibalik ang mga setting sa default</string>
     <string name="reset">Reset</string>
     <string name="thirdparty_apps_title" maxLength="41">Third-party na mga API app</string>
-    <string name="thirdparty_apps_summary">Ipakit ang listahan ng aplikasyon na gumagamit sa API ng AnkiDroid tulad ng mga diksyunaryo, utility.</string>
+    <string name="thirdparty_apps_summary">Ipakit ang listahan ng aplikasyon na gumagamit sa API ng TÜV SÜD Akademie tulad ng mga diksyunaryo, utility.</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Reviews</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Previews</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Toggle backside only</string>
@@ -229,9 +229,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">Pangkalahatan</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">Paghahanap</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Tulungang pabutihin pa ang AnkiDroid!</string>
+    <string name="analytics_dialog_title">Tulungang pabutihin pa ang TÜV SÜD Akademie!</string>
     <string name="analytics_title" maxLength="41">Ibahagi ang paggamit ng mga katangian</string>
-    <string name="analytics_summ">Maaari ka mag-ambag sa AnkiDroid sa pagtulong sa development team na makita ang mga katangiang madalas ginagamit ng mga tao</string>
+    <string name="analytics_summ">Maaari ka mag-ambag sa TÜV SÜD Akademie sa pagtulong sa development team na makita ang mga katangiang madalas ginagamit ng mga tao</string>
     <string name="note_editor_replace_newlines" maxLength="41">Palitan ang mga newlines ng HTML</string>
     <string name="note_editor_replace_newlines_summ">In the note editor, convert any instances of &lt;br&gt; to newlines when editing a card.</string>
     <string name="type_in_answer_focus" maxLength="41">Tampulan ang \'i-type ang sagot\'</string>
@@ -240,7 +240,7 @@
     <string name="open_changelog">Open changelog</string>
     <string name="pref_cat_about_title" maxLength="41">Tungkol sa Amin</string>
     <string name="contributors_title">Mga Nag-Ambag</string>
-    <string name="about_contributors_description"><![CDATA[Ito ang mga astig naming mga <a href=\"%1$s\">nag-ambag</a>. Maaari ka ring tumulong sa AnkiDroid sa pag-program, pagsalin, paghandog <a href=\"%2$s\">at iba pa</a>!]]></string>
+    <string name="about_contributors_description"><![CDATA[Ito ang mga astig naming mga <a href=\"%1$s\">nag-ambag</a>. Maaari ka ring tumulong sa TÜV SÜD Akademie sa pag-program, pagsalin, paghandog <a href=\"%2$s\">at iba pa</a>!]]></string>
     <string name="license">Lisensya</string>
     <string name="license_description"><![CDATA[Ang AnkiDroid ay inilabas sa ilalim ng <a href=\"%1$s\">GPL-3.0</a> at <a href=\"%2$s\">AGPL-3.0</a> na mga lisensya, kung saan ang mga source code nito ay mahahanap <a href=\"%3$s\">sa GitHub</a>]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid also uses third-party libraries and icons, which are licensed under various open source <a href=\"%1$s\">licenses</a>]]></string>
@@ -279,7 +279,7 @@
     <string name="bindings_already_bound">Nakakabit na sa \'%s\'</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Eksperimental</string>
-    <string name="readtext_deprecation_warn">Sinimulan ng AnkiDroid ang mas pinagaling na mekanismo sa TTS kung saan ito ay gagana sa iba\'t ibang kliyente ng Anki at mayroon itong mas maraming boses at mas pinagaling na playback ng wika! Mangyaring mag-upgrade sa lalong madaling panahon, dahil mawawal na ang setting na ito.</string>
+    <string name="readtext_deprecation_warn">Sinimulan ng TÜV SÜD Akademie ang mas pinagaling na mekanismo sa TTS kung saan ito ay gagana sa iba\'t ibang kliyente ng Anki at mayroon itong mas maraming boses at mas pinagaling na playback ng wika! Mangyaring mag-upgrade sa lalong madaling panahon, dahil mawawal na ang setting na ito.</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Mangyaring mag-upgrade sa bagong text to speech na format</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

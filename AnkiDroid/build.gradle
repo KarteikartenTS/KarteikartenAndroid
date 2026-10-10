@@ -83,16 +83,21 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.ichi2.anki"
+        // TÜV SÜD: eigener Paketname. Nach der ersten Verteilung NICHT mehr ändern (sonst kein Update möglich).
+        applicationId = "de.tuevsued.akademie.karteikarten"
         buildConfigField "Boolean", "CI", (System.getenv("CI") == "true").toString()
-        buildConfigField "String", "ACRA_URL", '"https://ankidroid.org/acra/report"'
+        // TÜV SÜD: keine Absturzberichte an AnkiDroid-Server
+        buildConfigField "String", "ACRA_URL", '""'
+        buildConfigField "Boolean", "ENABLE_CRASH_REPORTS", "false"
+        // TÜV SÜD: AnkiWeb-Login und -Sync ausgeblendet, Karten kommen über den Updater
+        buildConfigField "Boolean", "ENABLE_ANKIWEB", "false"
         buildConfigField "String", "BACKEND_VERSION", "\"${libs.versions.ankiBackend.get()}\""
         buildConfigField "Boolean", "ENABLE_LEAK_CANARY", "false"
         buildConfigField "String", "GIT_COMMIT_HASH", "\"${gitCommitHash.get()}\""
         buildConfigField "long", "BUILD_TIME", buildTimeMillis.get()
         // whether UI elements linking to external donation pages are shown ('play' hides them)
-        buildConfigField "Boolean", "SHOW_DONATE_LINKS", "true"
-        resValue "string", "app_name", "AnkiDroid"
+        buildConfigField "Boolean", "SHOW_DONATE_LINKS", "false"
+        resValue "string", "app_name", "TÜV SÜD Akademie"
 
         // The version number is of the form:
         // <major>.<minor>.<maintenance>[dev|alpha<build>|beta<build>|]
@@ -115,9 +120,11 @@ android {
         //
         // This ensures the correct ordering between the various types of releases (dev < alpha < beta < release) which is
         // needed for upgrades to be offered correctly.
-        versionCode=22501300
+        // TÜV SÜD: eigene Versionierung, muss für das Selbstupdate bei jedem Release steigen.
+        // Basis-Code: AnkiDroid v2.25.1
+        versionCode=1
         // If you change this to a new version, you probably also want to update .gradle/workflows/milestone.yml for the new version...
-        versionName="2.25.1"
+        versionName="0.1.0"
         minSdk = libs.versions.minSdk.get().toInteger()
 
         // After #13695: change .tests_emulator.yml

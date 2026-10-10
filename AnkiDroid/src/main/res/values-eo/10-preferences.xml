@@ -70,7 +70,7 @@
     <string name="card_browser_font_size" maxLength="41">Grando de tiparo de kart-foliumilo</string>
     <string name="card_browser_hide_media" maxLength="41">Vidigi dosiernomojn en kart‑foliumilo</string>
     <string name="card_browser_hide_media_summary">Vidigi dosiernomojn de sonoj en la kampoj “demando”/“respondo” de la kart‑foliumilo</string>
-    <string name="col_path" maxLength="41">Dosierujo de AnkiDroid</string>
+    <string name="col_path" maxLength="41">Dosierujo de TÜV SÜD Akademie</string>
     <string name="fullscreen_review" maxLength="41">Plenekrana reĝimo</string>
     <string name="full_screen_off">Malaktiva</string>
     <string name="full_screen_system">Kaŝi striojn de operaciumo</string>
@@ -175,7 +175,7 @@
     <string name="pref_keep_screen_on" maxLength="41">Teni ekranon ŝaltita</string>
     <string name="pref_keep_screen_on_summ">Ne malŝalti ekranon</string>
     <string name="enable_api_title" maxLength="41">Aktivigi AnkiDroid-API</string>
-    <string name="enable_api_summary">Ebligi al aliaj aplikaĵoj konekti al AnkiDroid kaj legi/skribi datumojn sen via ago</string>
+    <string name="enable_api_summary">Ebligi al aliaj aplikaĵoj konekti al TÜV SÜD Akademie kaj legi/skribi datumojn sen via ago</string>
     <string name="custom_buttons" maxLength="41">Butonoj sur ilarstrio</string>
     <string name="custom_buttons_summary">Alĝustigi agojn por vidigi en la aplikaĵa ilarstrio</string>
     <string name="custom_buttons_setting_always_show">Ĉiam montri</string>
@@ -185,7 +185,7 @@
     <string name="reset_settings_to_default">Restarigi agordojn al implicitaj valoroj</string>
     <string name="reset">Restarigi</string>
     <string name="thirdparty_apps_title" maxLength="41">Eksteraj aplikaĵoj uzantaj API</string>
-    <string name="thirdparty_apps_summary">Vidigi listojn de aplikaĵoj, kiuj uzas AnkiDroid API kiel vortaroj kaj iloj.</string>
+    <string name="thirdparty_apps_summary">Vidigi listojn de aplikaĵoj, kiuj uzas TÜV SÜD Akademie API kiel vortaroj kaj iloj.</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Ripetado</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Antaŭrigardo</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Baskuligi montradon de nur dorso</string>
@@ -224,9 +224,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">Ĝeneralaj</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">Serĉi</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Helpu, ke AnkiDroid fariĝos pli bona!</string>
+    <string name="analytics_dialog_title">Helpu, ke TÜV SÜD Akademie fariĝos pli bona!</string>
     <string name="analytics_title" maxLength="41">Kunhavigi uzadon de eblaĵoj</string>
-    <string name="analytics_summ">Vi povas kontribui al AnkiDroid per helpi al la disvovla teamo scii kiujn funkciojn homoj uzas</string>
+    <string name="analytics_summ">Vi povas kontribui al TÜV SÜD Akademie per helpi al la disvovla teamo scii kiujn funkciojn homoj uzas</string>
     <string name="note_editor_replace_newlines" maxLength="41">Anstataŭigi novajn liniojn en HTML</string>
     <string name="note_editor_replace_newlines_summ">In the note editor, convert any instances of &lt;br&gt; to newlines when editing a card.</string>
     <string name="type_in_answer_focus" maxLength="41">Marki kampon “enigi respondon”</string>
@@ -235,7 +235,7 @@
     <string name="open_changelog">Montri ŝanĝ-protokolon</string>
     <string name="pref_cat_about_title" maxLength="41">Pri</string>
     <string name="contributors_title">Kontribuantoj</string>
-    <string name="about_contributors_description"><![CDATA[Jen listo de niaj karaj <a href=\"%1$s\">kontribuantoj</a>. Vi ankaŭ povas helpi al AnkiDroid per programi, traduki, donaci <a href=\"%2$s\">kaj pli</a>!]]></string>
+    <string name="about_contributors_description"><![CDATA[Jen listo de niaj karaj <a href=\"%1$s\">kontribuantoj</a>. Vi ankaŭ povas helpi al TÜV SÜD Akademie per programi, traduki, donaci <a href=\"%2$s\">kaj pli</a>!]]></string>
     <string name="license">Permesilo</string>
     <string name="license_description"><![CDATA[AnkiDroid estas eldonita laŭ la permesiloj <a href=\"%1$s\">GPL-3.0</a> kaj <a href=\"%2$s\">AGPL-3.0</a>, ĝia fontkodo estas disponebla en <a href=\"%3$s\">GitHub</a>.]]></string>
     <string name="other_licenses"><![CDATA[AnkiDroid uzas bibliotekojn kaj bildsimbolojn de eksteraj liverantoj, kiuj estas eldonitaj laŭ diversaj malfermkodaj <a href=\"%1$s\">permesiloj</a>.]]></string>
@@ -274,7 +274,7 @@
     <string name="bindings_already_bound">Jam asignita al %s</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Eksperimenta</string>
-    <string name="readtext_deprecation_warn">AnkiDroid enkondukis pli bonan meĥanismon por parolsintezo, kiu kongruas kun aliaj klientoj Anki kaj liveras pliajn voĉojn kaj plibonigojn al son-ludado!\n\nĜisdatigu viajn kartojn kiel eble plej rapide, ĉar tiu ĉi agordo baldaŭ estos forigita.</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie enkondukis pli bonan meĥanismon por parolsintezo, kiu kongruas kun aliaj klientoj Anki kaj liveras pliajn voĉojn kaj plibonigojn al son-ludado!\n\nĜisdatigu viajn kartojn kiel eble plej rapide, ĉar tiu ĉi agordo baldaŭ estos forigita.</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Ĝisdatigu al pli nova formo de parolsintezo</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

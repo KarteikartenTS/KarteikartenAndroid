@@ -63,23 +63,23 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
         // Logo secret
         binding.appLogo.setOnClickListener(DeveloperOptionsSecretClickListener(this))
 
-        // Contributors text
-        val contributorsLink = getString(R.string.link_contributors)
-        val contributingGuideLink = getString(R.string.link_contribution)
+        // TÜV SÜD: Herkunftshinweis statt Mitwirkenden-Aufruf (GPL verlangt den Hinweis)
+        binding.aboutContributorsTitle.text = getString(R.string.tuev_about_origin_title)
         binding.contributorsDescription.apply {
-            text = getString(R.string.about_contributors_description, contributorsLink, contributingGuideLink).parseAsHtml()
+            text = getString(R.string.tuev_about_origin, getString(R.string.tuev_link_ankidroid)).parseAsHtml()
             movementMethod = LinkMovementMethod.getInstance()
         }
 
         // License text
         val gplLicenseLink = getString(R.string.licence_wiki)
         val agplLicenseLink = getString(R.string.link_agpl_wiki)
-        val sourceCodeLink = getString(R.string.link_source)
+        // TÜV SÜD: Quellcode dieser App, nicht der von AnkiDroid
+        val sourceCodeLink = getString(R.string.tuev_link_source)
         val dependencyLicenseLink = getString(R.string.dependency_license_wiki)
         binding.licenseDescription.apply {
             text =
                 (
-                    getString(R.string.license_description, gplLicenseLink, agplLicenseLink, sourceCodeLink) + "<br>" +
+                    getString(R.string.tuev_license_description, gplLicenseLink, agplLicenseLink, sourceCodeLink) + "<br>" +
                         getString(R.string.other_licenses, dependencyLicenseLink)
                 ).parseAsHtml()
             movementMethod = LinkMovementMethod.getInstance()
@@ -97,6 +97,9 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
             binding.donateDescription.isVisible = false
         }
 
+        // TÜV SÜD: Bewertung im Store und AnkiDroid-Änderungsprotokoll passen nicht zu dieser App
+        binding.rateAnkiDroid.isVisible = false
+        binding.openChangelog.isVisible = false
         binding.rateAnkiDroid.setOnClickListener {
             IntentUtil.tryOpenIntent(requireAnkiActivity(), AnkiDroidApp.getMarketIntent(requireContext()))
         }

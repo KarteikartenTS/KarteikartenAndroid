@@ -132,7 +132,7 @@
     <string name="checks_action" maxLength="28">Tarkista</string>
     <string name="unknown_type_field_warning">Kirjoita vastaus: tuntematon kenttä %s</string>
     <string name="delete_deck" comment="Message on a progress bar starting a deck is being deleted.">Poistetaan pakka&#8230;</string>
-    <string name="info_rate">Arvostele AnkiDroid</string>
+    <string name="info_rate">Arvostele TÜV SÜD Akademie</string>
     <string name="import_title">Tuodaan</string>
     <string name="import_preparing_file">Valmistellaan tiedostoa tuontiin&#8230;</string>
     <string name="import_message_add" comment="Adding a new deck to the collection (import)">Lisää</string>
@@ -146,13 +146,13 @@
     <string name="import_error_content_provider">Valittua tiedostoa ei voitu tuoda automaattisesti AnkiDroidiin. Katso käyttöohjeesta, kuinka tuoda manuaalisesti Anki-tiedostoja: \n%s</string>
     <string name="import_error_copy_to_cache_title">Tiedoston tallentaminen välimuistiin epäonnistui</string>
     <string name="import_error_copy_to_cache_explanation" comment="The substitution is a list of suggested fixes in bullet point form">Tämä johtuu usein viasta sovelluksessa, jota käytit tiedoston valitsemiseen. Kokeile seuraavia korjauksia:\n\n%s</string>
-    <string name="import_interrupted">Tuonti keskeytyi: AnkiDroid suljettiin</string>
+    <string name="import_interrupted">Tuonti keskeytyi: TÜV SÜD Akademie suljettiin</string>
     <string name="export_ready_title">Vienti valmis</string>
     <string name="export_send_no_handlers">Sovellusta apkg:n käsittelyyn ei ole olemassa. Tallennetaan&#8230;</string>
     <string name="export_save_apkg_successful">Anki-tiedosto tallennettu.</string>
     <string name="export_save_apkg_unsuccessful">Anki-tiedoston tallennus epäonnistui.</string>
     <string name="export_share_title">Lähetä Anki-pakkaus käyttäen</string>
-    <string name="export_email_subject">AnkiDroid toi kortit: %s</string>
+    <string name="export_email_subject">TÜV SÜD Akademie toi kortit: %s</string>
     <string name="export_email_text"><![CDATA[
         Hei!
         <br/><br/>
@@ -203,8 +203,8 @@
     <!-- JS api -->
     <string name="api_version_developer_contact">Tämä kortti käyttää AnkiDroidin ominaisuuksia, joita ei tueta. Ota yhteyttä kehittäjään %1$s, tai katso wiki. %2$s</string>
     <string name="invalid_json_data">Kortti antoi virheellisiä tietoja. %s</string>
-    <string name="valid_js_api_version">Virheellinen AnkiDroid JS API -versio. Ota yhteyttä kehittäjään %s, tai katso wiki.</string>
-    <string name="update_js_api_version">AnkiDroid JS API -päivitys saatavilla. Ota yhteyttä kehittäjään %s tai katso wiki</string>
+    <string name="valid_js_api_version">Virheellinen TÜV SÜD Akademie JS API -versio. Ota yhteyttä kehittäjään %s, tai katso wiki.</string>
+    <string name="update_js_api_version">TÜV SÜD Akademie JS API -päivitys saatavilla. Ota yhteyttä kehittäjään %s tai katso wiki</string>
     <string name="reviewer_invalid_api_version_visit_documentation">Näytä</string>
     <string name="anki_js_error_code">(Error code: %d)</string>
     <!-- About AnkiDroid screen -->
@@ -215,8 +215,8 @@
     <!-- Deck Picker -->
     <string name="search_decks" maxLength="28">Etsi pakkoja</string>
     <string name="ankidroid_init_failed_webview_title">Fatal error</string>
-    <string name="ankidroid_init_failed_webview">AnkiDroid vaatii toimiakseen System WebView -palvelun, joka ei ole käytettävissä. Näin voi käydä, jos järjestelmän päivitys on käynnissä. Yritä uudelleen muutaman minuutin kuluttua.\n\n%s</string>
-    <string name="ankidroid_init_failed_storage">AnkiDroid ei voi käyttää tallennustilaa Android-virheen vuoksi.\n\n%s</string>
+    <string name="ankidroid_init_failed_webview">TÜV SÜD Akademie vaatii toimiakseen System WebView -palvelun, joka ei ole käytettävissä. Näin voi käydä, jos järjestelmän päivitys on käynnissä. Yritä uudelleen muutaman minuutin kuluttua.\n\n%s</string>
+    <string name="ankidroid_init_failed_storage">TÜV SÜD Akademie ei voi käyttää tallennustilaa Android-virheen vuoksi.\n\n%s</string>
     <!-- A Menu item to change the Font Size (currently in the Note Editor) -->
     <string name="menu_font_size" maxLength="28">Fonttikoko</string>
     <string name="menu_show_toolbar" comment="Checkable item stating whether the note editor toolbar should be shown" maxLength="28">Näytä työkalupalkki</string>
@@ -238,7 +238,7 @@
     <string name="note_editor_video_too_large">Videotiedosto on liian suuri, aseta video käsin</string>
     <string name="note_editor_audio_too_large">Äänitiedosto on liian suuri, aseta ääni käsin</string>
     <string name="ankidroid_cannot_open_after_backup_try_again" comment="After an Android backup is restored, AnkiDroid opens and shows this message.         Opening AnkiDroid again will work correctly">Android varmuuskopiointi käynnissä. Yritä uudelleen</string>
-    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Saatat joutua käyttämään iManageria, jotta AnkiDroid voi lisätä pikanäppäimiä.</string>
+    <string name="create_shortcut_error_vivo" comment="iManager is an app on Vivo phones">Saatat joutua käyttämään iManageria, jotta TÜV SÜD Akademie voi lisätä pikanäppäimiä.</string>
     <string name="create_shortcut_error_miui" comment="Keep the message as short, as this is shown in a toast. %s is the app name: \'AnkiDroid\'">Allow ‘Home screen shortcuts’ in system settings for %s to add shortcuts</string>
     <string name="create_shortcut_failed" comment="home screen == launcher">Aloitusnäyttösi ei salli AnkiDroidin lisätä pikakuvakkeita</string>
     <string name="create_shortcut_error">Virhe lisättäessä pikakuvaketta: %s</string>
@@ -305,7 +305,7 @@
     <string name="intro_get_started" comment="Action to start AnkiDroid for the first time without syncing from AnkiWeb">Get started</string>
     <string name="intro_sync_from_ankiweb">Synkronoi AnkiWebistä</string>
     <!-- IntentHandler -->
-    <string name="app_not_initialized_new">AnkiDroidia ei ole vielä alustettu. Avaa AnkiDroid ja yritä uudelleen</string>
+    <string name="app_not_initialized_new">AnkiDroidia ei ole vielä alustettu. Avaa TÜV SÜD Akademie ja yritä uudelleen</string>
     <!-- Deck Creation -->
     <string name="deck_created">Pakka luotu</string>
     <string name="deck_renamed">Pakka nimetty uudelleen</string>

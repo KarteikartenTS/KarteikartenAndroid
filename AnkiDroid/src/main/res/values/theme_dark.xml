@@ -122,7 +122,7 @@
         <item name="fab_normal">@color/material_light_blue_700</item>
         <item name="fab_pressed">@color/material_light_blue_900</item>
         <!-- Images -->
-        <item name="navDrawerImage">@drawable/nav_drawer_logo_dark_theme</item>
+        <item name="navDrawerImage">@drawable/tuev_nav_header</item>
         <!-- Dialog styles -->
         <item name="android:listPreferredItemHeight">56dip</item>
         <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>

@@ -72,7 +72,7 @@
     <string name="card_browser_font_size" maxLength="41">Veľkosť písma v prehliadači kartičiek</string>
     <string name="card_browser_hide_media" maxLength="41">Zobraziť názvy súborov v prehliadači kartičiek</string>
     <string name="card_browser_hide_media_summary">Zobraziť názvy audio súborov v poliach otázka/odpoveď prehliadača kartičiek</string>
-    <string name="col_path" maxLength="41">Adresár AnkiDroid</string>
+    <string name="col_path" maxLength="41">Adresár TÜV SÜD Akademie</string>
     <string name="fullscreen_review" maxLength="41">Celoobrazovkový režim</string>
     <string name="full_screen_off">Vypnúť</string>
     <string name="full_screen_system">Skryť systémové panely</string>
@@ -179,8 +179,8 @@
     </plurals>
     <string name="pref_keep_screen_on" maxLength="41">Nevypínať obrazovku</string>
     <string name="pref_keep_screen_on_summ">Zakázať vypínanie obrazovky</string>
-    <string name="enable_api_title" maxLength="41">Povoliť AnkiDroid API</string>
-    <string name="enable_api_summary">Umožniť ostatným aplikáciám pripojiť sa k AnkiDroid a dovoliť čítať/zapisovať údaje bez vášho zásahu</string>
+    <string name="enable_api_title" maxLength="41">Povoliť TÜV SÜD Akademie API</string>
+    <string name="enable_api_summary">Umožniť ostatným aplikáciám pripojiť sa k TÜV SÜD Akademie a dovoliť čítať/zapisovať údaje bez vášho zásahu</string>
     <string name="custom_buttons" maxLength="41">Tlačidlá panelu aplikácie</string>
     <string name="custom_buttons_summary">Nastaviť, aké akcie sa zobrazia v paneli aplikácie</string>
     <string name="custom_buttons_setting_always_show">Vždy zobraziť</string>
@@ -190,7 +190,7 @@
     <string name="reset_settings_to_default">Obnoviť pôvodné nastavenia</string>
     <string name="reset">Obnoviť</string>
     <string name="thirdparty_apps_title" maxLength="41">Aplikácie API od tretích strán</string>
-    <string name="thirdparty_apps_summary">Pozrite si zoznam aplikácií, ktoré využívajú AnkiDroid API ako sú slovníky, služby.</string>
+    <string name="thirdparty_apps_summary">Pozrite si zoznam aplikácií, ktoré využívajú TÜV SÜD Akademie API ako sú slovníky, služby.</string>
     <string name="pref_controls_reviews_tab" maxLength="41" comment="Name of the tab to configure controls for the reviews screen">Opakovania</string>
     <string name="pref_controls_previews_tab" maxLength="41" comment="Name of the tab to configure controls for the previews screen">Náhľad</string>
     <string name="toggle_backside_only" maxLength="41" comment="Control setting that toggles \'Backside only\' in the previews screen">Prepnúť iba zadnú stranu</string>
@@ -202,7 +202,7 @@
     <string name="exit_via_double_tap_back_summ">Aby sa predišlo neúmyselnému opusteniu obrazovky študovania alebo aplikácie</string>
     <!-- Allow all files in media imports -->
     <string name="media_import_allow_all_files" maxLength="41">Povoliť všetky súbory pri importe médií</string>
-    <string name="media_import_allow_all_files_summ">Ak AnkiDroid nevie rozoznať médium</string>
+    <string name="media_import_allow_all_files_summ">Ak TÜV SÜD Akademie nevie rozoznať médium</string>
     <!-- Custom sync server settings -->
     <string name="custom_sync_server_title" maxLength="41">Vlastný server synchronizácie</string>
     <string name="custom_sync_server_summary_none_of_the_two_servers_used" comment="This summary is shown when neither of the two custom sync servers are used,         which is the default.">Nepoužíva sa</string>
@@ -234,9 +234,9 @@
     <string name="deck_conf_general" maxLength="41" comment="Label of the submenu for the general options of new deck">Všeobecné</string>
     <string name="deck_conf_cram_search" maxLength="41" comment="Label of a text field that contains a search query.">Hľadať</string>
     <!-- analytics options -->
-    <string name="analytics_dialog_title">Pomôžte spraviť AnkiDroid lepším!</string>
+    <string name="analytics_dialog_title">Pomôžte spraviť TÜV SÜD Akademie lepším!</string>
     <string name="analytics_title" maxLength="41">Zdieľať používanie prvkov</string>
-    <string name="analytics_summ">Môžete prispieť pre AnkiDroid tak, že umožníte vývojovému tímu sledovať, ktoré prvky sa používajú</string>
+    <string name="analytics_summ">Môžete prispieť pre TÜV SÜD Akademie tak, že umožníte vývojovému tímu sledovať, ktoré prvky sa používajú</string>
     <string name="note_editor_replace_newlines" maxLength="41">Nahradiť nové riadky s HTML</string>
     <string name="note_editor_replace_newlines_summ">In the note editor, convert any instances of &lt;br&gt; to newlines when editing a card.</string>
     <string name="type_in_answer_focus" maxLength="41">Vybrať „napíšte odpoveď“</string>
@@ -284,7 +284,7 @@
     <string name="bindings_already_bound">Už naviazané na %s</string>
     <!-- Advanced -->
     <string name="pref_cat_experimental" maxLength="41" tools:ignore="UnusedResources">Experimental</string>
-    <string name="readtext_deprecation_warn">AnkiDroid has introduced a better TTS mechanism which is compatible with other Anki clients and includes more voices and improvements to language playback!\n\nPlease upgrade as soon as possible, as this setting will be removed soon</string>
+    <string name="readtext_deprecation_warn">TÜV SÜD Akademie has introduced a better TTS mechanism which is compatible with other Anki clients and includes more voices and improvements to language playback!\n\nPlease upgrade as soon as possible, as this setting will be removed soon</string>
     <string name="readtext_reviewer_warn" tools:ignore="UnusedResources">Please upgrade to the new text to speech format</string>
     <string name="allow_templates_to_record_audio" maxLength="41">Allow templates to record audio</string>
     <string name="template_is_trying_to_record_audio">This template is trying to record audio</string>

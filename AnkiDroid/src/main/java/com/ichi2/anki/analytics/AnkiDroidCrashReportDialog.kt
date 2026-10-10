@@ -37,7 +37,7 @@ class AnkiDroidCrashReportDialog :
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val dialogBuilder = AlertDialog.Builder(this)
-        dialogBuilder.setIcon(R.drawable.logo_star_144dp)
+        dialogBuilder.setIcon(R.drawable.tuev_logo_placeholder)
         dialogBuilder.setTitle(R.string.feedback_title)
         dialogBuilder.setPositiveButton(getString(R.string.feedback_report), this@AnkiDroidCrashReportDialog)
         dialogBuilder.setNegativeButton(R.string.dialog_cancel, this@AnkiDroidCrashReportDialog)

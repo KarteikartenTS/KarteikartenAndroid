@@ -37,11 +37,15 @@ class HeaderFragment : SettingsFragment() {
         requirePreference<HeaderPreference>(R.string.pref_appearance_screen_key)
             .title = TR.preferencesAppearance()
 
-        requirePreference<HeaderPreference>(R.string.pref_sync_screen_key).summary =
-            HeaderPreference.buildHeaderSummary(
-                TR.sentenceCase.ankiWebAccount,
-                getString(R.string.automatic_sync_choice),
-            )
+        requirePreference<HeaderPreference>(R.string.pref_sync_screen_key).apply {
+            summary =
+                HeaderPreference.buildHeaderSummary(
+                    TR.sentenceCase.ankiWebAccount,
+                    getString(R.string.automatic_sync_choice),
+                )
+            // TÜV SÜD: kein AnkiWeb-Konto
+            isVisible = BuildConfig.ENABLE_ANKIWEB
+        }
 
         requirePreference<Preference>(R.string.pref_advanced_screen_key).apply {
             if (AdaptionUtil.isXiaomiRestrictedLearningDevice) {
@@ -96,9 +100,11 @@ class HeaderFragment : SettingsFragment() {
 
                 index(R.xml.preferences_general)
                 index(R.xml.preferences_reviewing)
-                index(R.xml.preferences_sync)
-                index(R.xml.preferences_custom_sync_server)
-                    .addBreadcrumb(R.string.pref_cat_sync)
+                if (BuildConfig.ENABLE_ANKIWEB) {
+                    index(R.xml.preferences_sync)
+                    index(R.xml.preferences_custom_sync_server)
+                        .addBreadcrumb(R.string.pref_cat_sync)
+                }
 
                 if (Prefs.newReviewRemindersEnabled) {
                     indexItem()
@@ -174,14 +180,16 @@ class HeaderFragment : SettingsFragment() {
                         .addBreadcrumb(activity.getString(R.string.pref_cat_reviewer))
                 }
 
-                indexItem()
-                    .withKey(activity.getString(R.string.one_way_sync_key))
-                    .withTitle(
-                        activity.getString(R.string.one_way_sync_title),
-                    ).withSummary(TR.preferencesOnNextSyncForceChangesIn())
-                    .withResId(R.xml.preferences_sync)
-                    .addBreadcrumb(activity.getString(R.string.pref_cat_sync))
-                    .addBreadcrumb(activity.getString(R.string.pref_cat_advanced))
+                if (BuildConfig.ENABLE_ANKIWEB) {
+                    indexItem()
+                        .withKey(activity.getString(R.string.one_way_sync_key))
+                        .withTitle(
+                            activity.getString(R.string.one_way_sync_title),
+                        ).withSummary(TR.preferencesOnNextSyncForceChangesIn())
+                        .withResId(R.xml.preferences_sync)
+                        .addBreadcrumb(activity.getString(R.string.pref_cat_sync))
+                        .addBreadcrumb(activity.getString(R.string.pref_cat_advanced))
+                }
             }
 
             // Some preferences and categories are only shown conditionally,

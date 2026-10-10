@@ -120,7 +120,7 @@
         <item quantity="one">%1$d daqiqa</item>
         <item quantity="other">%1$d daqiqa</item>
     </plurals>
-    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">AnkiDroid kartasi</string>
+    <string name="fact_adder_intent_title" comment="Label of the \'Add Note\' window. This title can\'t be seen in AnkiDroid directly.">TÜV SÜD Akademie kartasi</string>
     <string name="note_editor_copy_note" maxLength="28">Qayddan nusxa olish</string>
     <string name="card_editor_reposition_card" comment="reposition a card in the new queue" maxLength="28">Oʻrnini oʻzgartirish</string>
     <string name="card_editor_reset_card" maxLength="28">Progressni oʻchirish</string>
@@ -143,16 +143,16 @@
     <string name="import_error_handle_exception">Faylni import qilib boʻlmadi\n\n%s</string>
     <string name="import_error_not_apkg_extension">“%s” fayl nomida .apkg yoki .colpkg kengaytmasi yoʻq</string>
     <string name="import_error_load_imported_database">Anki maʼlumotlar bazasini (.anki2) almashtirish hali qoʻllab-quvvatlanmaydi. Iltimos, almashtirish boʻyicha koʻrsatmalar uchun qoʻllanmaga murojaat qiling.</string>
-    <string name="import_error_content_provider">Tanlangan faylni AnkiDroid tomonidan avtomatik import qilib boʻlmadi. Anki fayllarni qoʻlda import qilish uchun foydalanuvchi qoʻllanmasiga murojaat qiling: \n%s</string>
+    <string name="import_error_content_provider">Tanlangan faylni TÜV SÜD Akademie tomonidan avtomatik import qilib boʻlmadi. Anki fayllarni qoʻlda import qilish uchun foydalanuvchi qoʻllanmasiga murojaat qiling: \n%s</string>
     <string name="import_error_copy_to_cache_title">Faylni keshlash amalga oshmadi</string>
     <string name="import_error_copy_to_cache_explanation" comment="The substitution is a list of suggested fixes in bullet point form">Bu koʻpincha faylni tanlash uchun foydalangan ilovadagi xato tufayli yuzaga keladi. Quyidagi yechimlarni sinab koʻring:\n\n%s</string>
-    <string name="import_interrupted">Import uzuldi: AnkiDroid yopilgan</string>
+    <string name="import_interrupted">Import uzuldi: TÜV SÜD Akademie yopilgan</string>
     <string name="export_ready_title">Eksportga tayyor</string>
     <string name="export_send_no_handlers">apkg bilan ishlash uchun ilova mavjud emas. Saqlanmoqda&#8230;</string>
     <string name="export_save_apkg_successful">Anki paket muvaffaqiyatli saqlandi</string>
     <string name="export_save_apkg_unsuccessful">Anki paketini saqlab boʻlmadi</string>
     <string name="export_share_title">Anki paketini quyidagi bilan yuboring</string>
-    <string name="export_email_subject">AnkiDroid kartalarni eksport qildi: %s</string>
+    <string name="export_email_subject">TÜV SÜD Akademie kartalarni eksport qildi: %s</string>
     <string name="export_email_text"><![CDATA[
         Salom!
         <br/><br/>
@@ -199,12 +199,12 @@
     <string name="white_board_image_save_failed">Yozuv taxtasi rasmini saqlab boʻlmadi. %s</string>
     <string name="white_board_image_saved">Yozuv taxtasi rasmi %s ga saqlandi</string>
     <string name="title_whiteboard_editor" maxLength="28">Yozuv taxtasi muharriri</string>
-    <string name="user_is_a_robot">Avtomatik test aniqlandi. Agar siz inson boʻlsangiz, AnkiDroid qoʻllab-quvvatlash guruhiga murojaat qiling.</string>
+    <string name="user_is_a_robot">Avtomatik test aniqlandi. Agar siz inson boʻlsangiz, TÜV SÜD Akademie qoʻllab-quvvatlash guruhiga murojaat qiling.</string>
     <!-- JS api -->
-    <string name="api_version_developer_contact">Bu karta AnkiDroid qoʻllab-quvvatlamagan funksiyalarni ishlatadi. %1$s dasturchi bilan bogʻlaning yoki vikiga murojaat qiling. %2$s</string>
+    <string name="api_version_developer_contact">Bu karta TÜV SÜD Akademie qoʻllab-quvvatlamagan funksiyalarni ishlatadi. %1$s dasturchi bilan bogʻlaning yoki vikiga murojaat qiling. %2$s</string>
     <string name="invalid_json_data">Karta yaroqsiz maʼlumot taqdim etdi. %s</string>
-    <string name="valid_js_api_version">Yaroqsiz AnkiDroid JS API versiyasi. %s dasturchi bilan bogʻlaning yoki vikiga murojaat qiling</string>
-    <string name="update_js_api_version">AnkiDroid JS API yangilanishi mavjud. %s dasturchi bilan bogʻlaning yoki vikiga murojaat qiling</string>
+    <string name="valid_js_api_version">Yaroqsiz TÜV SÜD Akademie JS API versiyasi. %s dasturchi bilan bogʻlaning yoki vikiga murojaat qiling</string>
+    <string name="update_js_api_version">TÜV SÜD Akademie JS API yangilanishi mavjud. %s dasturchi bilan bogʻlaning yoki vikiga murojaat qiling</string>
     <string name="reviewer_invalid_api_version_visit_documentation">Koʻrish</string>
     <string name="anki_js_error_code">(Xatolik kodi: %d)</string>
     <!-- About AnkiDroid screen -->
@@ -215,8 +215,8 @@
     <!-- Deck Picker -->
     <string name="search_decks" maxLength="28">Dastalarni qidirish</string>
     <string name="ankidroid_init_failed_webview_title">Kritik xato</string>
-    <string name="ankidroid_init_failed_webview">AnkiDroid hozirda mavjud boʻlmagan tizim WebViewʼga tayanadi. Bu tizim yangilanishlarni oʻrnatayotganda sodir boʻlishi mumkin. Bir necha daqiqadan soʻng qayta urinib koʻring.\n\n%s</string>
-    <string name="ankidroid_init_failed_storage">Android xatoligi sababli AnkiDroid diskka ruxsati yoʻq.\n\n%s</string>
+    <string name="ankidroid_init_failed_webview">TÜV SÜD Akademie hozirda mavjud boʻlmagan tizim WebViewʼga tayanadi. Bu tizim yangilanishlarni oʻrnatayotganda sodir boʻlishi mumkin. Bir necha daqiqadan soʻng qayta urinib koʻring.\n\n%s</string>
+    <string name="ankidroid_init_failed_storage">Android xatoligi sababli TÜV SÜD Akademie diskka ruxsati yoʻq.\n\n%s</string>
     <!-- A Menu item to change the Font Size (currently in the Note Editor) -->
     <string name="menu_font_size" maxLength="28">Shrift oʻlchami</string>
     <string name="menu_show_toolbar" comment="Checkable item stating whether the note editor toolbar should be shown" maxLength="28">Asboblar panelini koʻrsatish</string>
@@ -305,7 +305,7 @@
     <string name="intro_get_started" comment="Action to start AnkiDroid for the first time without syncing from AnkiWeb">Get started</string>
     <string name="intro_sync_from_ankiweb">AnkiWebʼdan sinxronlash</string>
     <!-- IntentHandler -->
-    <string name="app_not_initialized_new">AnkiDroid hali ishga tushirilmagan. AnkiDroidʼni oching va qayta urinib koʻring</string>
+    <string name="app_not_initialized_new">TÜV SÜD Akademie hali ishga tushirilmagan. AnkiDroidʼni oching va qayta urinib koʻring</string>
     <!-- Deck Creation -->
     <string name="deck_created">Dasta yaratildi</string>
     <string name="deck_renamed">Dasta nomi oʻzgartirildi</string>
