@@ -38,7 +38,6 @@
     <string name="expand" comment="In the deck picker: accessibility label of the buttons that display the subdecks of a deck.">विस्तार करें</string>
     <string name="collapse" comment="In the deck picker: accessibility label of the buttons that hide the subdecks of a deck.">संक्षिप्त करें</string>
     <string name="no_cards_placeholder_title" comment="Text shown the first time AnkiDroid is opened, to explain to the user why they can\'t yet review.">यह संग्रह खाली है</string>
-    <string name="no_cards_placeholder_description" comment="Text shown the first time AnkiDroid is opened, to explain what should be their first action.">नये कार्ड जोडने के लिए \n+ आइकन का उपयोग करें।</string>
     <!-- Reviewer -->
     <plurals name="reviewer_window_title" comment="Header of the reviewer, telling the users how many minutes remains before they have seen all cards.">
         <item quantity="one">%d मिनट शेष है</item>

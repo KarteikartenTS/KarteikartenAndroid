@@ -3,7 +3,6 @@
 <resources>
     <color name="tuev_blue">#FF005CA9</color>
     <color name="tuev_blue_dark">#FF003F75</color>
-    <color name="tuev_card">#FFFFFFFF</color>
 
     <!-- Über-Seite: Herkunftshinweis und Quellcode (Pflicht nach GPL-3.0) -->
     <string name="tuev_link_source" translatable="false">https://github.com/KarteikartenTS/KarteikartenAndroid</string>

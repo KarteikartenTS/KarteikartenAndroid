@@ -38,7 +38,6 @@
     <string name="expand" comment="In the deck picker: accessibility label of the buttons that display the subdecks of a deck.">Mở rộng</string>
     <string name="collapse" comment="In the deck picker: accessibility label of the buttons that hide the subdecks of a deck.">Thu gọn</string>
     <string name="no_cards_placeholder_title" comment="Text shown the first time AnkiDroid is opened, to explain to the user why they can\'t yet review.">Bộ sưu tập đang trống</string>
-    <string name="no_cards_placeholder_description" comment="Text shown the first time AnkiDroid is opened, to explain what should be their first action.">Hãy thêm thẻ\nbằng biểu tượng +</string>
     <!-- Reviewer -->
     <plurals name="reviewer_window_title" comment="Header of the reviewer, telling the users how many minutes remains before they have seen all cards.">
         <item quantity="other">còn %d phút</item>

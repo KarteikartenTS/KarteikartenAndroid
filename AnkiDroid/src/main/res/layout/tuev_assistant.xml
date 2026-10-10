@@ -8,6 +8,7 @@
 
     <LinearLayout
         android:id="@+id/tuev_assistant_container"
+        tools:ignore="UselessParent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|start"

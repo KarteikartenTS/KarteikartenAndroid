@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- TÜV SÜD Akademie: Texte des Lern-Assistenten. Titel und Text gehören paarweise zusammen (gleicher Index). -->
 <resources>
-    <string name="tuev_assistant_menu" translatable="false">Lern-Assistent</string>
+    <string name="tuev_assistant_menu" maxLength="28" translatable="false">Lern-Assistent</string>
     <string name="tuev_assistant_back" translatable="false">Zurück</string>
     <string name="tuev_assistant_next" translatable="false">Weiter</string>
     <string name="tuev_assistant_done" translatable="false">Fertig</string>

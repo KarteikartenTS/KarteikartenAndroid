@@ -38,7 +38,6 @@
     <string name="expand" comment="In the deck picker: accessibility label of the buttons that display the subdecks of a deck.">విస్తరించు</string>
     <string name="collapse" comment="In the deck picker: accessibility label of the buttons that hide the subdecks of a deck.">కుదించు</string>
     <string name="no_cards_placeholder_title" comment="Text shown the first time AnkiDroid is opened, to explain to the user why they can\'t yet review.">సముదాయం ఖాళీ గా ఉంది</string>
-    <string name="no_cards_placeholder_description" comment="Text shown the first time AnkiDroid is opened, to explain what should be their first action.">+ గుర్తు ని \nనొక్కి  చీటీ కూర్చు</string>
     <!-- Reviewer -->
     <plurals name="reviewer_window_title" comment="Header of the reviewer, telling the users how many minutes remains before they have seen all cards.">
         <item quantity="one">%d నిమిషం మిగిలి ఉంది</item>

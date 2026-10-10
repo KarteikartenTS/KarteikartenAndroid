@@ -38,7 +38,6 @@
     <string name="expand" comment="In the deck picker: accessibility label of the buttons that display the subdecks of a deck.">𐌿𐍆𐌰𐍂𐌸𐌴𐌹𐌷𐌰𐌽</string>
     <string name="collapse" comment="In the deck picker: accessibility label of the buttons that hide the subdecks of a deck.">𐌰𐍆𐍆𐌹𐌻𐌷𐌰𐌽</string>
     <string name="no_cards_placeholder_title" comment="Text shown the first time AnkiDroid is opened, to explain to the user why they can\'t yet review.">𐌷𐌿𐌶𐌳 𐌹𐍃𐍄 𐌻𐌰𐌿𐍃</string>
-    <string name="no_cards_placeholder_description" comment="Text shown the first time AnkiDroid is opened, to explain what should be their first action.">𐌳𐌿𐍃𐍄𐍉𐌳𐌴𐌹 𐌱𐌹𐌰𐌿𐌺𐌰𐌽 𐌺𐌰𐍂𐍄𐍉𐍃\n𐌱𐍂𐌿𐌺𐌾𐌰𐌽 + 𐍄𐌰𐌹𐌺𐌽𐌰𐌹𐍃.</string>
     <!-- Reviewer -->
     <plurals name="reviewer_window_title" comment="Header of the reviewer, telling the users how many minutes remains before they have seen all cards.">
         <item quantity="one">𐌼𐌹𐌽𐌿𐍄𐌿𐍃 %d 𐌱𐌹𐌻𐌴𐌹𐌱𐌹𐌸</item>
