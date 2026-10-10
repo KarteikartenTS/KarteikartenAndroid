@@ -4,6 +4,7 @@
 package com.ichi2.anki.widgets
 
 import android.content.Context
+import android.graphics.Typeface
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
 import android.view.View
@@ -97,6 +98,16 @@ class DeckAdapter(
      * Set new data in the adapter. This should be used instead of [submitList] (which is called
      * by this method) so there's no need to call [notifyDataSetChanged] on the adapter.
      */
+
+    // TÜV SÜD: Gesamtzahl der Karten je Hauptordner (Modul). Für diese Stapel zeigt die Liste
+    // statt neu/lernen/fällig nur die Gesamtzahl in Schwarz.
+    var moduleTotals: Map<DeckId, Int> = emptyMap()
+        set(value) {
+            if (field == value) return
+            field = value
+            notifyDataSetChanged()
+        }
+
     fun submit(
         data: List<DisplayDeckNode>,
         hasSubDecks: Boolean,
@@ -173,6 +184,14 @@ class DeckAdapter(
         binding.deckLearn.setTextColor(if (node.lrnCount == 0) zeroCountColor else learnCountColor)
         binding.deckReview.text = node.revCount.toString()
         binding.deckReview.setTextColor(if (node.revCount == 0) zeroCountColor else reviewCountColor)
+        val moduleTotal = moduleTotals[node.did]
+        binding.deckLearn.isVisible = moduleTotal == null
+        binding.deckReview.isVisible = moduleTotal == null
+        binding.deckNew.setTypeface(null, if (moduleTotal == null) Typeface.NORMAL else Typeface.BOLD)
+        if (moduleTotal != null) {
+            binding.deckNew.text = moduleTotal.toString()
+            binding.deckNew.setTextColor(deckNameDefaultColor)
+        }
 
         holder.binding.deckLayout.setOnClickListener { onDeckSelected(node.did) }
         holder.binding.deckLayout.setOnLongClickListener {

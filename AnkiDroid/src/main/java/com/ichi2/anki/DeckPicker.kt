@@ -885,6 +885,7 @@ open class DeckPicker :
                 data = deckList.data,
                 hasSubDecks = deckList.hasSubDecks,
             )
+            updateModuleTotals(deckList)
         }
 
         fun onFocusedDeckChanged(deckId: DeckId?) {
@@ -1540,8 +1541,9 @@ open class DeckPicker :
                 Timber.w(e, "Inhalte: Aktualisierung fehlgeschlagen")
                 ContentUpdater.Result(emptyList(), listOf("?"))
             }
+        // Immer auffrischen: auch das Limit der Hauptordner kann sich geändert haben
+        updateDeckList()
         if (result.updated.isNotEmpty()) {
-            updateDeckList()
             if (!firstImport) {
                 showSnackbar(getString(R.string.tuev_content_updated, result.updated.joinToString(", ")))
             }
@@ -1549,6 +1551,20 @@ open class DeckPicker :
             showSnackbar(R.string.tuev_content_offline)
         }
         LernAssistent.showOnFirstLaunch(this)
+    }
+
+    /** TÜV SÜD: Gesamtzahl der Karten je Hauptordner (Modul) für die Deckliste. */
+    private fun updateModuleTotals(deckList: FlattenedDeckList) {
+        val roots = deckList.data.filter { it.depth == 0 }
+        lifecycleScope.launch {
+            val titles = ContentUpdater.moduleTitles(this@DeckPicker)
+            deckListAdapter.moduleTotals =
+                withCol {
+                    roots
+                        .filter { it.fullDeckName in titles }
+                        .associate { it.did to decks.cardCount(it.did, includeSubdecks = true) }
+                }
+        }
     }
 
     fun refreshState() {

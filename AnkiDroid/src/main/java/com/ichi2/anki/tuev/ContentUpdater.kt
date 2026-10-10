@@ -73,8 +73,29 @@ object ContentUpdater {
                     failed += module.title
                 }
             }
+            try {
+                withCol { removeNewLimitOfModules(modules) }
+            } catch (e: Exception) {
+                Timber.w(e, "Inhalte: Limit der Hauptordner nicht gesetzt")
+            }
             Result(updated, failed)
         }
+
+    /** Kein Tageslimit für neue Karten beim Hauptordner eines Moduls; es gelten die Limits der Kapitel. */
+    private const val UNLIMITED = 9999
+
+    private fun com.ichi2.anki.libanki.Collection.removeNewLimitOfModules(modules: List<Module>) {
+        for (module in modules) {
+            val deck = decks.byName(module.title) ?: continue
+            if (deck.optInt("newLimit", -1) == UNLIMITED) continue
+            deck.put("newLimit", UNLIMITED)
+            decks.save(deck)
+            Timber.i("Inhalte: Hauptordner %s ohne Tageslimit", module.title)
+        }
+    }
+
+    /** Titel der Module, deren Hauptordner in der Deckliste die Gesamtzahl der Karten zeigt. */
+    fun moduleTitles(context: Context): Set<String> = loadModules(context).second.map { it.title }.toSet()
 
     /** @return true, wenn das Modul importiert wurde */
     private suspend fun updateModule(
