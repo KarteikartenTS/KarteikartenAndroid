@@ -254,6 +254,11 @@ class DeckPickerFloatingActionMenu(
     }
 
     fun showFloatingActionButton() {
+        // TÜV SÜD: Lernende legen keine eigenen Stapel oder Karten an
+        if (!BuildConfig.ALLOW_ADD_CONTENT) {
+            binding.fabMain.visibility = View.GONE
+            return
+        }
         if (!binding.fabMain.isShown) {
             Timber.i("DeckPicker:: showFloatingActionButton()")
             binding.fabMain.visibility = View.VISIBLE
@@ -286,6 +291,8 @@ class DeckPickerFloatingActionMenu(
 
     init {
         binding.fabMain.isExtended = false
+        // TÜV SÜD: Knopf von Anfang an verborgen
+        if (!BuildConfig.ALLOW_ADD_CONTENT) binding.fabMain.visibility = View.GONE
         binding.fabMain.setOnTouchListener(
             object : DoubleTapListener(context) {
                 override fun onDoubleTap(e: MotionEvent?) {

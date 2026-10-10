@@ -1,0 +1,5 @@
+{
+    "_comment": "TÜV SÜD Akademie: Quelle der Karteikarten-Module. Beim Wechsel auf den TÜV-SÜD-Server nur contentBaseUrl ändern.",
+    "contentBaseUrl": "https://github.com/KarteikartenTS/KarteikartenInhalte/releases/latest/download/",
+    "modules": [{ "id": "pti-1", "title": "PTI 1", "file": "PTI-1.apkg" }]
+}

@@ -176,6 +176,7 @@ import com.ichi2.anki.snackbar.SnackbarBuilder
 import com.ichi2.anki.snackbar.showSnackbar
 import com.ichi2.anki.sync.MeteredSyncPolicy
 import com.ichi2.anki.sync.launchCatchingRequiringOneWaySyncDiscardUndo
+import com.ichi2.anki.tuev.ContentUpdater
 import com.ichi2.anki.tuev.LernAssistent
 import com.ichi2.anki.ui.BottomFadeFrameLayout
 import com.ichi2.anki.ui.ResizablePaneManager
@@ -518,8 +519,10 @@ open class DeckPicker :
         }
 
         setViewBinding(binding)
-        // TÜV SÜD: Lern-Assistent beim ersten Start
-        binding.root.post { LernAssistent.showOnFirstLaunch(this) }
+        // TÜV SÜD: Karteikarten-Module vom Content-Server holen, danach ggf. Lern-Assistent
+        if (AnkiDroidApp.fatalError == null) {
+            lifecycleScope.launch { updateTuevContent() }
+        }
         if (!fragmented) {
             // On recreation into this single-pane layout (e.g. a foldable changing form
             // factor), saved state can still hold the split-pane's side panel fragment.
@@ -1517,6 +1520,34 @@ open class DeckPicker :
         message?.let { dialogHandler.sendStoredMessage(it) }
     }
 
+    /**
+     * TÜV SÜD: Module prüfen und importieren. Beim ersten Start mit Fortschrittsanzeige, danach
+     * still im Hintergrund mit Hinweis, wenn sich etwas geändert hat. Fehler (z. B. offline) brechen nichts ab.
+     */
+    private suspend fun updateTuevContent() {
+        val firstImport = ContentUpdater.isFirstImport(this)
+        val result =
+            try {
+                if (firstImport) {
+                    withProgress(getString(R.string.tuev_content_loading)) { ContentUpdater.updateAll(this) }
+                } else {
+                    ContentUpdater.updateAll(this)
+                }
+            } catch (e: Exception) {
+                Timber.w(e, "Inhalte: Aktualisierung fehlgeschlagen")
+                ContentUpdater.Result(emptyList(), listOf("?"))
+            }
+        if (result.updated.isNotEmpty()) {
+            updateDeckList()
+            if (!firstImport) {
+                showSnackbar(getString(R.string.tuev_content_updated, result.updated.joinToString(", ")))
+            }
+        } else if (firstImport && result.failed.isNotEmpty()) {
+            showSnackbar(R.string.tuev_content_offline)
+        }
+        LernAssistent.showOnFirstLaunch(this)
+    }
+
     fun refreshState() {
         // Due to the App Introduction, this may be called before permission has been granted.
         if (syncOnResume && hasCollectionStoragePermissions()) {
@@ -1817,7 +1848,8 @@ open class DeckPicker :
      */
     private fun onFinishedStartup() {
         launchCatchingTask {
-            if (!automaticSync()) {
+            // TÜV SÜD: keine Backup-Aufforderung; Inhalte kommen vom Server, automatische Sicherungen laufen weiter
+            if (!automaticSync() && BuildConfig.ALLOW_ADD_CONTENT) {
                 BackupPromptDialog.showIfAvailable(this@DeckPicker)
             }
         }

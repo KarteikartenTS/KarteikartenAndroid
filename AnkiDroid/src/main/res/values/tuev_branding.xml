@@ -11,4 +11,11 @@
     <string name="tuev_about_origin_title" translatable="false">Herkunft</string>
     <string name="tuev_about_origin" translatable="false"><![CDATA[Die Karteikarten-App der TÜV SÜD Akademie basiert auf dem Open-Source-Projekt <a href=\"%1$s\">AnkiDroid</a>. Wir danken allen, die daran mitgewirkt haben. Diese App ist kein offizielles AnkiDroid-Produkt.]]></string>
     <string name="tuev_license_description" translatable="false"><![CDATA[Diese App steht unter der <a href=\"%1$s\">GPL-3.0</a> und <a href=\"%2$s\">AGPL-3.0</a>. Der Quellcode ist <a href=\"%3$s\">auf GitHub</a> verfügbar.]]></string>
+
+    <!-- Inhalte vom Content-Server -->
+    <string name="tuev_content_loading" translatable="false">Deine Karteikarten werden geladen …</string>
+    <string name="tuev_content_updated" translatable="false">Neue oder geänderte Karten: %s</string>
+    <string name="tuev_content_offline" translatable="false">Karteikarten konnten nicht geladen werden. Bitte prüfe deine Internetverbindung und starte die App neu.</string>
+    <string name="tuev_empty_title" translatable="false">Noch keine Karteikarten</string>
+    <string name="tuev_empty_description" translatable="false">Deine Module werden automatisch geladen, sobald du mit dem Internet verbunden bist.</string>
 </resources>

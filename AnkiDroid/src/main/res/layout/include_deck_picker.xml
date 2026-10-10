@@ -81,7 +81,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:gravity="center"
-                        android:text="@string/no_cards_placeholder_title"
+                        android:text="@string/tuev_empty_title"
                         style="@style/TextAppearance.AppCompat.Medium" />
 
                     <com.ichi2.ui.FixedTextView
@@ -89,7 +89,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:textAlignment="center"
-                        android:text="@string/no_cards_placeholder_description"
+                        android:text="@string/tuev_empty_description"
                         style="@style/TextAppearance.AppCompat.Body1" />
                 </LinearLayout>
 

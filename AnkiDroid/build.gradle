@@ -91,6 +91,8 @@ android {
         buildConfigField "Boolean", "ENABLE_CRASH_REPORTS", "false"
         // TÜV SÜD: AnkiWeb-Login und -Sync ausgeblendet, Karten kommen über den Updater
         buildConfigField "Boolean", "ENABLE_ANKIWEB", "false"
+        // TÜV SÜD: Lernende legen keine eigenen Stapel/Karten an, Inhalte kommen vom Content-Server
+        buildConfigField "Boolean", "ALLOW_ADD_CONTENT", "false"
         buildConfigField "String", "BACKEND_VERSION", "\"${libs.versions.ankiBackend.get()}\""
         buildConfigField "Boolean", "ENABLE_LEAK_CANARY", "false"
         buildConfigField "String", "GIT_COMMIT_HASH", "\"${gitCommitHash.get()}\""
