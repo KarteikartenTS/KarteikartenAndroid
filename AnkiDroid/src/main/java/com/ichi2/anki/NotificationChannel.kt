@@ -70,6 +70,9 @@ enum class NotificationChannel(
     GENERAL("General Notifications", R.string.app_name, NotificationManagerCompat.IMPORTANCE_DEFAULT),
     SYNC("Synchronization", R.string.sync_title, NotificationManagerCompat.IMPORTANCE_LOW),
     REVIEW_REMINDERS("Review Reminders", R.string.review_reminders_do_not_translate, NotificationManagerCompat.IMPORTANCE_DEFAULT),
+
+    // TÜV SÜD: Erinnerung nach längerer Lernpause
+    TUEV_LERN_ERINNERUNG("Lern-Erinnerung", R.string.tuev_reminder_channel, NotificationManagerCompat.IMPORTANCE_DEFAULT),
     ;
 
     fun getName(res: Resources) = res.getString(nameId)

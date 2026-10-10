@@ -29,7 +29,24 @@
         <item>Nach dem Aufdecken bewertest du dich: „Nochmal“, „Schwer“, „Gut“ oder „Einfach“. Danach plant die App, wann die Karte wiederkommt.</item>
         <item>Blau sind neue Karten, Rot Karten in der Lernphase, Grün fällige Wiederholungen. Jeden Tag ein bisschen bringt am meisten.</item>
         <item>Über das Menü ☰ und „Kartenübersicht“ findest du jede Karte per Suchbegriff, praktisch zum Nachschlagen.</item>
-        <item>Du findest mich jederzeit wieder über ⋮ und „Lern-Assistent“. Viel Erfolg beim Lernen!</item>
+        <item>Schaust du mal 5 Tage nicht rein, erinnere ich dich morgens. Und du findest mich jederzeit über ⋮ und „Lern-Assistent“. Viel Erfolg!</item>
+    </string-array>
+
+    <!-- Lern-Erinnerung nach 5 Tagen ohne App-Start, werktags 9:30. Texte wechseln der Reihe nach. -->
+    <string name="tuev_reminder_channel" translatable="false">Lern-Erinnerung</string>
+    <string-array name="tuev_reminder_titles" translatable="false">
+        <item>Karla vermisst dich</item>
+        <item>Karla hier</item>
+        <item>Kleine Runde gefällig?</item>
+        <item>Fünf Tage Funkstille …</item>
+        <item>Kaffee in der Hand?</item>
+    </string-array>
+    <string-array name="tuev_reminder_texts" translatable="false">
+        <item>Deine Karteikarten warten auf dich. Fünf Minuten reichen schon für eine Runde.</item>
+        <item>Lust auf Arbeitszeitbetrug? In der Karteikarten-App ist es nicht mal betrogen.</item>
+        <item>Wer jeden Tag ein bisschen lernt, muss vor der Prüfung weniger pauken.</item>
+        <item>Karla schaut traurig. Eine Karte? Nur eine!</item>
+        <item>Perfekt für ein paar Karteikarten. Karla ist bereit, du auch?</item>
     </string-array>
 
     <style name="TuevAssistantButton">

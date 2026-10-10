@@ -178,6 +178,7 @@ import com.ichi2.anki.sync.MeteredSyncPolicy
 import com.ichi2.anki.sync.launchCatchingRequiringOneWaySyncDiscardUndo
 import com.ichi2.anki.tuev.ContentUpdater
 import com.ichi2.anki.tuev.LernAssistent
+import com.ichi2.anki.tuev.LernErinnerung
 import com.ichi2.anki.ui.BottomFadeFrameLayout
 import com.ichi2.anki.ui.ResizablePaneManager
 import com.ichi2.anki.ui.animations.fadeIn
@@ -522,6 +523,8 @@ open class DeckPicker :
         // TÜV SÜD: Karteikarten-Module vom Content-Server holen, danach ggf. Lern-Assistent
         if (AnkiDroidApp.fatalError == null) {
             lifecycleScope.launch { updateTuevContent() }
+            // TÜV SÜD: Frist für die Lern-Erinnerung neu starten
+            LernErinnerung.onAppOpened(this)
         }
         if (!fragmented) {
             // On recreation into this single-pane layout (e.g. a foldable changing form

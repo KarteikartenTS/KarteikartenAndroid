@@ -17,8 +17,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isInvisible
 import androidx.core.view.updateLayoutParams
+import androidx.fragment.app.FragmentActivity
 import com.ichi2.anki.R
 import com.ichi2.anki.common.preferences.sharedPrefs
+import com.ichi2.utils.Permissions
 import timber.log.Timber
 
 /**
@@ -139,7 +141,12 @@ object LernAssistent {
 
         private fun finish() {
             Timber.i("Lern-Assistent: geschlossen bei Tipp %d", index + 1)
+            val firstTour = !activity.sharedPrefs().getBoolean(PREF_TOUR_SHOWN, false)
             activity.sharedPrefs().edit { putBoolean(PREF_TOUR_SHOWN, true) }
+            // Nach der ersten Tour um Erlaubnis für die Lern-Erinnerung bitten (Android 13+)
+            if (firstTour && activity is FragmentActivity) {
+                Permissions.showNotificationsPermissionBottomSheetIfNeeded(activity, activity.supportFragmentManager) {}
+            }
             idle?.cancel()
             root
                 .animate()
