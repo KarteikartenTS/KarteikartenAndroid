@@ -1,6 +1,6 @@
 # 📚 Karteikarten der TÜV SÜD Akademie
 
-## 👉 [Android-App herunterladen](https://github.com/KarteikartenTS/KarteikartenAndroid/releases/tag/v0.1.0-demo)
+## Discontinued
 
 Auf der Seite die Datei **`TUEV-SUED-Akademie-Karteikarten-0.1.0-demo.apk`** antippen, öffnen und installieren.
 Fragt Android, ob „unbekannte Apps“ installiert werden dürfen: erlauben.
